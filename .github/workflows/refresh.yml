@@ -1,0 +1,36 @@
+name: Refresh Defense Aviation Watch
+
+on:
+  schedule:
+    - cron: "59 2 * * 1-5"   # 06:59 Gulf time (UTC+4), Monday to Friday
+  workflow_dispatch: {}        # manual "Run workflow" button
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Run agent
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          AGENT_MODEL: ${{ vars.AGENT_MODEL }}
+        run: node agent/refresh.mjs
+      - name: Commit updated data
+        run: |
+          git config user.name "aviation-watch-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add site/data
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "Daily refresh $(date -u +%F)"
+          git push

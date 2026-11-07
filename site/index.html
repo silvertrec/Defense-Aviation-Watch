@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Defense Aviation Watch</title>
+<meta name="description" content="Daily news digest and strategic advisor for defense aviation.">
+<meta name="theme-color" content="#242C54">
+<meta name="robots" content="noindex,nofollow">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Aviation Watch">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/icon-180.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="hdr"><div class="hdr-in">
+  <div class="brand">
+    <img class="logo" src="assets/logo.png" alt="Global Aerospace Logistics" width="132" height="44">
+    <div class="ttl"><h1>Defense Aviation Watch</h1><div class="sub">Daily News Digest and Strategic Advisor</div></div>
+  </div>
+  <div class="right">
+    <div class="link" id="link"><span class="dot"></span><span>Data link <b id="linkS">awaiting</b></span><span id="linkT"></span></div>
+    <img class="plane" src="assets/plane.webp" alt="" aria-hidden="true">
+  </div>
+</div></header>
+<div class="shell"><div class="wrap">
+
+<div class="sit" id="sit" aria-label="Situation counts"></div>
+
+<section class="panel" aria-labelledby="hb">
+  <div class="phead"><h2 id="hb"><i class="lamp"></i>Leadership brief</h2><span class="lbl num" id="bstamp"></span></div>
+  <div class="pbody" id="brief"><div class="empty" style="border:0">Loading…</div></div>
+</section>
+
+<div class="two">
+  <section class="panel" aria-labelledby="ha">
+    <div class="phead"><h2 id="ha"><i class="lamp"></i>Activity by service line</h2><span class="lbl">Select a line to filter the feed</span></div>
+    <div class="pbody scope">
+      <div class="scopeside">
+        <div class="act" id="act"></div>
+        <div class="legend"><span><i class="seg30"></i>Last 30 days</span><span><i class="seg90"></i>31 to 90 days</span></div>
+      </div>
+    </div>
+  </section>
+  <section class="panel" aria-labelledby="he">
+    <div class="phead"><h2 id="he"><i class="lamp"></i>Upcoming events</h2></div>
+    <div class="pbody ev" id="ev"><div class="muted">No dated events yet.</div></div>
+  </section>
+</div>
+
+<div class="bar" role="toolbar" aria-label="Filters">
+  <div class="grp" id="fpri"><span class="lbl">Priority</span></div>
+  <div class="grp" id="fscope"><span class="lbl">Scope</span></div>
+  <div class="grp"><span class="lbl">Service line</span><select id="fline" aria-label="Service line"><option value="">All</option></select></div>
+  <div class="grp"><span class="lbl">Company</span><select id="fco" aria-label="Company"><option value="">All</option></select></div>
+  <span class="count" id="count"></span>
+</div>
+<details class="rubric"><summary>How items are rated</summary>
+  <dl>
+    <dt>High</dt><dd>Names GAL, or directly affects one of GAL's eight service lines with an identifiable counterparty and a decision window under 60 days.</dd>
+    <dt>Medium</dt><dd>Relevant to a service line or to a watchlist company. Action window of 60 to 180 days, or the impact is indirect.</dd>
+    <dt>Watch</dt><dd>Context or early signal. No action needed now.</dd>
+    <dt>Confidence</dt><dd>Certain: confirmed in a primary or official source. Likely: strong inference or a single credible source. Guessing: analyst judgement.</dd>
+    <dt>Check sources</dt><dd>Outlets report different facts or figures. Confirm before external use.</dd>
+  </dl>
+</details>
+<div class="feed" id="feed"><div class="empty">Loading…</div></div>
+</div></div>
+<script src="app.js"></script>
+</body>
+</html>
