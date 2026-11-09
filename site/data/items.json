@@ -1,878 +1,834 @@
 [
-    {
-        "action":  "Confirm with Embraer the status of the GAL MoU and its scope against the Generation 5 role. Assess a subcontract or teaming position with Generation 5 for military MRO and training.",
-        "basis":  "Names GAL as an MoU partner and affects the military MRO and training lines with an identifiable counterparty (Embraer); the UAE order sets the sustainment decision window now, so High.",
-        "companies":  [
-                          "Embraer",
-                          "AMMROC"
-                      ],
-        "confidence":  "Likely",
-        "date":  "2025-11-17",
-        "headline":  "Embraer C-390: UAE orders 10 (options for 10 more); Embraer names Generation 5 Holding exclusive UAE MRO and training partner, alongside its Nov 2025 MoUs with AMMROC and GAL",
-        "lines":  [
-                      "Military MRO",
-                      "Engineering, training and simulation"
-                  ],
-        "priority":  "high",
-        "scope":  "Capability themes",
-        "source":  "Breaking Defense (Nov 2025); Breaking Defense, The Defense Post (5 May 2026) and AviationPros/Embraer release (6 May 2026) for the Tawazun order. None of the May reports mentions GAL or AMMROC. Order value and delivery dates not stated.",
-        "url":  "https://breakingdefense.com/2026/05/uae-to-get-10-c-390-aircraft-up-to-10-more-in-the-future/",
-        "why":  "Tawazun contracted 10 C-390s (options for 10 more) in May 2026, and Embraer made Generation 5 Holding its exclusive strategic partner to develop MRO, after-sales support and technician and aircrew training in the UAE. GAL\u0027s Nov 2025 MoU covers sustainment and training; how it relates to the Generation 5 arrangement is not stated in public reporting."
-    },
-    {
-        "action":  "Monitor only. Revisit if a Gulf operator shows interest in unmanned tanking.",
-        "basis":  "No Gulf customer; context only for the refueling line.",
-        "companies":  [
-                          "Boeing"
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-09-15",
-        "headline":  "US Navy and Boeing sign first MQ-25A Stingray production contract ($562M); initial operating capability now 2029",
-        "lines":  [
-                      "Aerial refueling",
-                      "Drones / UAS"
-                  ],
-        "priority":  "watch",
-        "scope":  "Capability themes",
-        "source":  "Defense News",
-        "url":  "https://www.defensenews.com/industry/techwatch/2026/09/15/us-navy-boeing-ink-first-mq-25a-stingray-production-contract/",
-        "why":  "The first operational unmanned tanker is four years behind its original plan. No Gulf customer, so the near-term relevance to GAL\u0027s refueling line is low."
-    },
-    {
-        "action":  "Open a dialogue with EDGE on sustainment, training and site support for the JV. Track for a definitive agreement.",
-        "basis":  "Potential in-country support and training demand with a named UAE counterparty; the JV is not yet established and sustainment is not addressed in the term sheet, so 60 to 180 days at best, Medium.",
-        "companies":  [
-                          "EDGE",
-                          "Hanwha"
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-09-16",
-        "headline":  "EDGE and Hanwha sign term sheet for integrated air defense network with UAE joint venture",
-        "lines":  [
-                      "Engineering, training and simulation",
-                      "Military MRO"
-                  ],
-        "priority":  "med",
-        "scope":  "UAE / GCC",
-        "source":  "Army Recognition; Korea Times (17 Sept) and Evertiq (14 Oct) describe the same term sheet. Term sheet signed in Abu Dhabi on 15 Sept per Korea Times; binding status not stated.",
-        "url":  "https://www.armyrecognition.com/news/army-news/2026/uae-hanwha-edge-air-defense-deal-l-sam-msam-chunmoo",
-        "why":  "The term sheet covers L-SAM, additional M-SAM batteries and Chunmoo launchers, with technology transfer and phased localisation. Korea Times reports that no joint venture exists yet: the parties plan to pursue one, subject to government approvals. Neither Korean outlet mentions sustainment or training. A new system type (L-SAM) would need in-country support, training and facilities if it proceeds."
-    },
-    {
-        "action":  "Monitor. Consider the parts-supply theme when scoping GAL\u0027s MRO offers to UAE commands with aging fleets.",
-        "basis":  "Market context on parts supply; no counterparty or decision window.",
-        "companies":  [
-
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-09-18",
-        "headline":  "USAF Materiel Command cites a $14B supply gap and a shift away from single-source parts suppliers",
-        "lines":  [
-                      "Military MRO"
-                  ],
-        "priority":  "watch",
-        "scope":  "Global MRO",
-        "source":  "Defense News",
-        "url":  "https://www.defensenews.com/news/your-military/2026/09/18/us-air-force-has-a-14-billion-supply-hole-service-officials-say/",
-        "why":  "About 53% of the fleet is over 30 years old and the supply-driven aircraft down rate is up 87% in seven years. Multi-source parts policy points to growing demand for repair, parts and supply-chain capacity, which is a theme for GAL\u0027s own spares and repair planning."
-    },
-    {
-        "action":  "Note as a platform option in firefighting partnership discussions. No action until certification and customer interest are visible.",
-        "basis":  "Platform option for the firefighting line; unproven aircraft, no Gulf link.",
-        "companies":  [
-                          "Game Aerospace"
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-09-23",
-        "headline":  "Game Aerospace GB2 clean-sheet single-engine airtanker completes first flight",
-        "lines":  [
-                      "Aerial firefighting"
-                  ],
-        "priority":  "watch",
-        "scope":  "Capability themes",
-        "source":  "AerialFire Magazine; Aviation Week also lists it (headline only, paywalled)",
-        "url":  "https://aerialfiremag.com/2026/09/24/game-aerospace-gb2-completes-first-flight/",
-        "why":  "A new 1,200-gallon initial-attack airtanker, built around a PT6A-67F, is heading to FAA Part 23 certification and production. It is a possible platform option for firefighting partners, but it is unproven and has no Gulf link yet."
-    },
-    {
-        "action":  "Update the AAR competitor profile. Watch for AAR moves into Gulf government or military MRO. No teaming action now.",
-        "basis":  "Watchlist competitor; commercial deal with limited effect on GAL\u0027s military lines.",
-        "companies":  [
-                          "AAR"
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-09-29",
-        "headline":  "AAR to acquire 65% of MRO Holdings, a commercial heavy-maintenance provider, at about $4B implied enterprise value",
-        "lines":  [
-                      "Military MRO"
-                  ],
-        "priority":  "watch",
-        "scope":  "Competitors / M\u0026A",
-        "source":  "AviTrader (29 Sept) and GuruFocus (28 Sept). Both agree on the 65% stake; GuruFocus cites $1.8B for the stake, AviTrader $4B enterprise value. Confirm against AAR\u0027s release.",
-        "url":  "https://avitrader.com/2026/09/29/aar-to-buy-controlling-stake-in-mro-holdings/",
-        "why":  "MRO Holdings is a commercial airframe heavy-maintenance business, about 90% US revenue, so this is not a military MRO deal. AAR says it will expand wide-body work and pursue European and Middle Eastern fleet services, which makes AAR a larger regional competitor on commercial work. Direct impact on GAL\u0027s military lines is limited."
-    },
-    {
-        "action":  "Monitor only. Revisit if a GCC F-15 sustainment requirement appears.",
-        "basis":  "US programme news with no UAE link identified; context only.",
-        "companies":  [
-                          "Boeing"
-                      ],
-        "confidence":  "Certain",
-        "date":  "2026-09-29",
-        "headline":  "USAF awards Boeing $2.38B for 22 more F-15EX fighters (Lot 7)",
-        "lines":  [
-                      "Military MRO"
-                  ],
-        "priority":  "watch",
-        "scope":  "Global MRO",
-        "source":  "The Aviationist",
-        "url":  "https://theaviationist.com/2026/09/30/22-more-f-15ex-fighters-lot-7",
-        "why":  "Contracted F-15EX total reaches 120, with funds obligated ahead of fiscal year end. Indicates long-run F-15 family sustainment demand globally. No direct UAE link identified."
-    },
-    {
-        "action":  "Confirm GAL\u0027s sanctions and counterparty screening is current. Prepare a short factual position in case partners ask. No external comment unless asked.",
-        "basis":  "Sensitive item (allegation naming UAE locations); possible partner screening questions, 60 to 180 day horizon. Should be reviewed before wider circulation.",
-        "companies":  [
-
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-09-30",
-        "headline":  "Investigation reports UAE use of sanctioned Russian carrier Aviacon Zitotrans for flights to Africa",
-        "hold":  true,
-        "lines":  [
-                      "Military MRO"
-                  ],
-        "priority":  "med",
-        "scope":  "UAE / GCC",
-        "source":  "Defense News investigation (UAE authorities did not respond to requests for comment; allegations unconfirmed)",
-        "url":  "https://www.defensenews.com/global/mideast-africa/2026/09/30/uae-turns-to-russian-shadow-airline-for-missions-in-africa-investigation/",
-        "why":  "The report names UAE locations, including Sweihan Air Base, and cites over 100 flights between mid-2025 and September 2026. It may raise counterparty-screening questions from Western OEMs and partners working with UAE aviation entities."
-    },
-    {
-        "action":  "Monitor. Raise integration and test support with EDGE in the existing business development dialogue.",
-        "basis":  "Watchlist customer and partner milestone; possible integration work, no customer named.",
-        "companies":  [
-                          "EDGE"
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-10-02",
-        "headline":  "EDGE\u0027s LAHAB completes development of UAE-made MK 82 Penetrator aircraft munition; MK 83 variant in advanced development",
-        "lines":  [
-                      "Engineering, training and simulation"
-                  ],
-        "priority":  "watch",
-        "scope":  "UAE / GCC",
-        "source":  "Defense Arabia (EDGE statement; single outlet, no customer named)",
-        "url":  "https://english.defensearabia.com/edge-completes-development-of-the-mk-82-penetrator-aircraft-munition/",
-        "why":  "Another step in EDGE\u0027s sovereign munitions push. The weapon is described as compatible with NATO-configuration fighters, so it may bring aircraft integration and certification work to in-country providers."
-    },
-    {
-        "action":  "Use as a benchmark when scoping GAL\u0027s engine-related MRO offers. Retrieve the full article before citing externally.",
-        "basis":  "Pricing and structure benchmark for engine work; headline-level source.",
-        "companies":  [
-                          "GE Aerospace"
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-10-02",
-        "headline":  "GE wins $113M Navy helicopter engine sustainment contract",
-        "lines":  [
-                      "Military MRO"
-                  ],
-        "priority":  "watch",
-        "scope":  "Global MRO",
-        "source":  "ClearanceJobs (headline only; article could not be retrieved)",
-        "url":  "https://news.clearancejobs.com/2026/10/02/ge-wins-113m-navy-helicopter-engine-sustainment-contract/",
-        "why":  "OEM-held engine sustainment remains a common contract structure, which limits independent MRO scope on engine work."
-    },
-    {
-        "action":  "Note the repair-and-return model as a reference for any UAE air defense sustainment request. No GAL action until the UAE issues a comparable requirement; check whether the Kuwait package leaves local maintenance or training scope.",
-        "basis":  "Relevant to the military MRO and training lines and to a watchlist company; no identifiable GAL counterparty and indirect impact, so Medium.",
-        "companies":  [
-                          "Lockheed Martin"
-                      ],
-        "confidence":  "Certain",
-        "date":  "2026-10-02",
-        "headline":  "US approves possible $400M Patriot missile repair-and-return sale to Kuwait",
-        "lines":  [
-                      "Military MRO",
-                      "Engineering, training and simulation"
-                  ],
-        "priority":  "med",
-        "scope":  "UAE / GCC",
-        "source":  "US State Department (Bureau of Political-Military Affairs notice, 2 Oct 2026); Army Recognition (5 Oct) and Global Defense Corp (7 Oct) report the same value. Possible sale, not a signed contract.",
-        "url":  "https://www.state.gov/releases/bureau-of-political-military-affairs/2026/10/kuwait-patriot-missile-repair-and-return/",
-        "why":  "The package covers repair and return of Patriot missiles, maintenance services, training and two years of US contractor support in Kuwait. Principal contractors are Lockheed Martin, RTX, Leidos and KBR. It shows Gulf states funding in-region sustainment after Iranian attacks on Kuwait in 2026."
-    },
-    {
-        "action":  "No action. Closing-day check complete; track EDGE\u0027s export support model.",
-        "basis":  "Show outcome recorded: EDGE deals are Morocco-specific and GAL is not named, so Watch.",
-        "companies":  [
-                          "EDGE",
-                          "Lockheed Martin"
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-10-03",
-        "headline":  "Marrakech Airshow (7-10 Oct): EDGE signs Morocco weapons-integration contract and a production MoU; no EDGE or Tawazun sustainment agreement reported; Lockheed Martin also exhibited",
-        "lines":  [
-                      "Military MRO"
-                  ],
-        "priority":  "watch",
-        "scope":  "UAE / GCC",
-        "source":  "EDGE press release via Defense Arabia (7 Oct); Defense Arabia (9 Oct) and Gulf News (10 Oct) on signed deals. GAL and AMMROC not mentioned.",
-        "url":  "https://english.defensearabia.com/edge-returns-to-marrakech-air-show-2026-with-sensing-counter-drone-and-precision-capability/",
-        "why":  "EDGE\u0027s show release stresses long-term support, local production and over 80% UAE-made content. The signed outputs were a Morocco munitions-integration contract (with long-term support) and an MoU on local small arms and aero-engine production; no UAE MRO or sustainment contract was announced."
-    },
-    {
-        "action":  "Monitor for task force outputs that set data standards for military maintenance. No action now.",
-        "basis":  "Official source on a UAE initiative touching sustainment analytics, but no procurement, counterparty or decision window, so Watch.",
-        "companies":  [
-
-                      ],
-        "confidence":  "Certain",
-        "date":  "2026-10-03",
-        "headline":  "CENTCOM details Talon Synapse, the joint US-UAE military AI task force, with equipment-failure prediction and logistics among its focus areas",
-        "lines":  [
-                      "Engineering, training and simulation"
-                  ],
-        "priority":  "watch",
-        "scope":  "UAE / GCC",
-        "source":  "CENTCOM Citadel feature (3 Oct); task force announced 28 July (Defense News). About 20 US and UAE personnel; no launch date confirmed.",
-        "url":  "https://centcomcitadel.com/en_GB/articles/ssc/features/2026/10/03/feature-01/Talon-Synapse-The-future-of-AI-cooperation",
-        "why":  "Predictive maintenance and logistics are named focus areas, which could shape future UAE data and condition-monitoring requirements for fleet sustainment."
-    },
-    {
-        "action":  "Monitor only. Check for exercise support or readiness requirements once more detail is published.",
-        "basis":  "Relevance to GAL unconfirmed; no aviation or support detail published.",
-        "companies":  [
-
-                      ],
-        "confidence":  "Guessing",
-        "date":  "2026-10-04",
-        "headline":  "UAE MoD launches joint military exercise Falcon Strike 3 in Abu Dhabi",
-        "lines":  [
-                      "Facility management",
-                      "Manpower"
-                  ],
-        "priority":  "watch",
-        "scope":  "UAE / GCC",
-        "source":  "Defense Arabia (participants and aviation elements not disclosed)",
-        "url":  "https://english.defensearabia.com/mod-launches-joint-military-exercise-falcon-strike-3/",
-        "why":  "Stated aim is field experience, combat efficiency and doctrine development. The announcement gives no detail on aviation, participants or support requirements, so direct relevance is unconfirmed."
-    },
-    {
-        "action":  "Ask EDGE and the UAE Air Force whether platform integration, stockpile handling or training support will be procured locally. Confirm against the official notice before citing externally.",
-        "basis":  "Possible sale, secondary reports only; support work for UAE platforms possible but unconfirmed.",
-        "companies":  [
-
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-10-05",
-        "headline":  "US approves possible $1.04B sale of up to 10,000 APKWS-II guidance sections to the UAE",
-        "lines":  [
-                      "Drones / UAS",
-                      "Military MRO"
-                  ],
-        "priority":  "watch",
-        "scope":  "UAE / GCC",
-        "source":  "AFP via 24 News HD; Türkiye Today; The Defense Post (6 Oct); Breaking Defense headline (Oct, page not loaded) also lists Middle East guidance-kit sales. State Department notice could not be retrieved. Possible sale, not a contract.",
-        "url":  "https://www.turkiyetoday.com/world/us-approves-227-billion-in-arms-sales-to-egypt-kuwait-and-uae-3229701",
-        "why":  "The kits convert unguided rockets into low-cost counter-drone munitions, following Iranian drone and missile attacks on Gulf states. The Defense Post lists warheads, rocket motors, fuzes, training and technical support in the package; air-launched use implies integration and support work on UAE fixed- and rotary-wing platforms."
-    },
-    {
-        "action":  "No action. Note as regional MRO capacity; check whether military work is targeted.",
-        "basis":  "Context on regional MRO capacity with no GAL service-line counterparty or decision window, so Watch.",
-        "companies":  [
-
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-10-08",
-        "headline":  "GMF AeroAsia signs 20-year concession to establish an MRO facility at Muscat Airport, Oman",
-        "lines":  [
-
-                  ],
-        "priority":  "watch",
-        "scope":  "Global MRO",
-        "source":  "AviTrader (single source). Customer segment not stated; treat as commercial unless confirmed.",
-        "url":  "https://avitrader.com/2026/10/08/gmf-to-establish-muscat-airport-mro-facility/",
-        "why":  "The Oman CAA owns the hangar and grants the concession; GMF will develop it in phases. New regional MRO capacity in the Gulf, with investment and customers undisclosed."
-    },
-    {
-        "action":  "No action now. Use as a benchmark when scoping any rotary training or simulation teaming.",
-        "basis":  "Watchlist OEM and relevant service line, but the customer is outside the GCC and no GAL counterparty or decision window is identified, so Watch.",
-        "companies":  [
-                          "Lockheed Martin"
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-10-08",
-        "headline":  "Lockheed Martin signs Philippine Air Force deal for S-70i Black Hawk full flight simulator, virtual maintenance trainer and sustainment support through 2032",
-        "lines":  [
-                      "Engineering, training and simulation"
-                  ],
-        "priority":  "watch",
-        "scope":  "Capability themes",
-        "source":  "Defense Arabia (8 Oct); listed on Vertical (press release). Direct commercial sale; value not disclosed.",
-        "url":  "https://english.defensearabia.com/lockheed-martin-to-deliver-s-70-black-hawk-helicopter-training-devices-and-services-to-the-philippine-air-force/",
-        "why":  "Reference case for an OEM bundling simulators, maintainer training and spares support into one helicopter package, a model Lockheed Martin (Sikorsky) could offer to Gulf operators."
-    },
-    {
-        "action":  "Monitor for deployment details and any host-nation support or sustainment requirements.",
-        "basis":  "Regional context with no identified counterparty or service-line decision, so Watch.",
-        "companies":  [
-
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-10-08",
-        "headline":  "Turkey weighs air defense, electronic warfare and technical support for Saudi Arabia under the Mecca defense pact; says it will not take an offensive role",
-        "lines":  [
-
-                  ],
-        "priority":  "watch",
-        "scope":  "UAE / GCC",
-        "source":  "Defense News (8 Oct); based on statements by Turkey\u0027s foreign minister. Parliament has not ratified the pact.",
-        "url":  "https://www.defensenews.com/global/mideast-africa/2026/10/08/turkeys-foreign-minister-says-ankara-weighing-saudi-defense-support-rules-out-offensive-role/",
-        "why":  "Collective-defense deployments into Saudi Arabia could raise operating tempo and support demand in the region, alongside the Houthi offensive already tracked."
-    },
-    {
-        "action":  "No action now. Note the bundled-support model when approaching EDGE on UAS sustainment.",
-        "basis":  "Watchlist company and UAS-related support, but the customer is non-GCC, no GAL counterparty is identified and no decision window falls within 60 days, so Watch.",
-        "companies":  [
-                          "EDGE"
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-10-09",
-        "headline":  "EDGE signs Morocco contract to integrate precision weapons on Royal Moroccan Air Force UCAVs, including long-term support, and an MoU on local small-arms and aero-engine production",
-        "lines":  [
-                      "Drones / UAS",
-                      "Engineering, training and simulation"
-                  ],
-        "priority":  "watch",
-        "scope":  "Capability themes",
-        "source":  "Defense Arabia (9 Oct) and Gulf News (10 Oct); company-sourced, no value disclosed, no WAM or EDGE release read",
-        "url":  "https://english.defensearabia.com/edge-strengthens-moroccos-air-power-with-precision-weapons-for-its-unmanned-combat-fleet/",
-        "why":  "EDGE is selling integration work and long-term support with its munitions to an export customer. The pattern shows EDGE bundling sustainment into UAS-related offers, which overlaps GAL\u0027s UAS sustainment priority."
-    },
-    {
-        "action":  "Track how the framework treats foreign operators and regional repair capacity, with the Saudi F-35 sale (48 aircraft) as the Gulf test case. Ask Lockheed Martin UAE industrial contacts whether in-region sustainment workshare is contemplated.",
-        "basis":  "Medium: indirect impact on Military MRO through a watchlist OEM; contract formation depends on congressional action after the November midterms, so any decision window is 60 to 180 days; no GAL counterparty.",
-        "companies":  [
-                          "Lockheed Martin"
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-10-22",
-        "headline":  "Pentagon and Lockheed Martin announce 10-year F-35 framework: at least 850 US jets, 10 years of modification kits and sustainment, international orders covered; needs congressional approval",
-        "lines":  [
-                      "Military MRO",
-                      "Engineering, training and simulation"
-                  ],
-        "priority":  "med",
-        "scope":  "Global MRO",
-        "source":  "Defense News (22 Oct); Investing.com (22 Oct); AFP via Kuwait Times (22 Oct). Pentagon and Lockheed release not read directly. No total value disclosed.",
-        "url":  "https://defensenews.com/news/pentagon-congress/2026/10/22/pentagon-lockheed-agree-to-10-year-deal-for-850-f-35-jets",
-        "why":  "The framework pairs production (156 a year) with initial spares and 10 years of modification kits and sustainment, and states that foreign customer orders are covered. It cannot become a contract until Congress authorises a multiyear buy and funds it; Defense News notes a stopgap law through 11 Dec bars new multiyear buys. Outlets differ on the headline figure (850 jets over 10 years versus \u0027at least 850\u0027)."
-    },
-    {
-        "action":  "No action now. Check the UK MoD or MARSS for support and training terms before treating this as a precedent for UAE counter-UAS sustainment.",
-        "basis":  "Watch: counter-UAS in a neighbouring state; no GAL counterparty or decision window. Confidence reflects the company\u0027s own regulatory filing on conditionality; support terms remain unconfirmed.",
-        "companies":  [
-
-                      ],
-        "confidence":  "Certain",
-        "date":  "2026-10-09",
-        "headline":  "Kuwait nationwide counter-drone contract with UK-based MARSS (EOS), GBP 370M: EOS confirms it is conditional (26 Oct)",
-        "lines":  [
-                      "Drones / UAS",
-                      "Engineering, training and simulation"
-                  ],
-        "priority":  "watch",
-        "scope":  "UAE / GCC",
-        "source":  "UK Government (MoD release, 9 Oct); EOS ASX quarterly report (26 Oct); Defense Arabia; Unmanned Airspace. Sources differ on support terms: Defense Arabia reports a multi-year ILS programme and months of operator training; the UK release, Unmanned Airspace and the EOS report mention neither for this contract.",
-        "url":  "https://www.gov.uk/government/news/100-new-uk-jobs-created-as-kuwait-buys-british-made-ai-enabled-air-defence-systems",
-        "why":  "EOS states the contract is conditional: a GBP 74M advance payment guarantee, a matching customer advance payment and export licences within two months of receiving documentation. It is not in EOS\u0027s order book, and EOS says there is no certainty the conditions will be met. The ILS and training elements reported by Defense Arabia remain unconfirmed; EOS cites a separate GBP 8M counter-drone command and training centre order from an existing Middle East customer, which it does not link to Kuwait."
-    },
-    {
-        "action":  "No action now. Note a possible new competitor or teaming candidate in military MRO; check whether Marshall pursues Gulf work.",
-        "basis":  "Competitor ownership change in military MRO with no GAL counterparty or decision window and no stated Gulf link, so Watch.",
-        "companies":  [
-
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-10-12",
-        "headline":  "AURELIUS completes acquisition of Marshall Aerospace, a UK military MRO and C-130J support provider; price undisclosed",
-        "lines":  [
-                      "Military MRO",
-                      "Engineering, training and simulation"
-                  ],
-        "priority":  "watch",
-        "scope":  "Competitors / M\u0026A",
-        "source":  "AviTrader; UK Defence Journal (cites company statement, completion 8 Oct). Price not disclosed.",
-        "url":  "https://avitrader.com/2026/10/12/aurelius-completes-marshall-aerospace-acquisition",
-        "why":  "Marshall now operates as an independent, private-equity-owned military MRO and engineering company with C-130J support work, including a multi-year Turkish MoD contract for 12 C-130J aircraft. Neither source mentions the UAE or wider Gulf."
-    },
-    {
-        "action":  "No action. Note as a possible benchmark for operator valuations and fleet-investment models if GAL pursues a firefighting partnership.",
-        "basis":  "Context on firefighting-sector ownership; no counterparty, Gulf link or decision window for GAL, so Watch.",
-        "companies":  [
-
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-10-14",
-        "headline":  "Antin Infrastructure Partners takes majority stake in US aerial firefighting and heavy-lift operator HP Helicopters; price undisclosed",
-        "lines":  [
-                      "Aerial firefighting"
-                  ],
-        "priority":  "watch",
-        "scope":  "Competitors / M\u0026A",
-        "source":  "Air Med \u0026 Rescue (single outlet; deal value not disclosed; no Gulf link stated)",
-        "url":  "https://www.airmedandrescue.com/latest/news/antin-acquires-majority-stake-aerial-firefighting-operator-hp-helicopters",
-        "why":  "HP Helicopters is a California-based operator of aerial firefighting, heavy-lift and utility work for government agencies across 10 western US states. Infrastructure-fund ownership of firefighting operators shows investor interest in the sector; the report names no Gulf customers or operations."
-    },
-    {
-        "action":  "No action. Note EDGE\u0027s export posture when assessing its capacity for domestic sustainment scope.",
-        "basis":  "Watch: context on a watchlist company with no identifiable service-line impact and no decision window.",
-        "companies":  [
-                          "EDGE"
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-10-13",
-        "headline":  "EDGE, UAE MoD, Brazilian Army and IMBEL sign letter of intent on defence industrial cooperation",
-        "lines":  [
-
-                  ],
-        "priority":  "watch",
-        "scope":  "UAE / GCC",
-        "source":  "Defense Arabia (EDGE release); also reported by Quwa. EDGE media centre dates the release 13 Oct.",
-        "url":  "https://english.defensearabia.com/edge-uae-ministry-of-defence-brazilian-army-and-imbel-strengthen-strategic-defence-cooperation/",
-        "why":  "The LoI covers land force modernisation, technology transfer and future joint programmes, with EDGE committing to an industrial presence in Brazil. No aviation, MRO, sustainment or training element is reported."
-    },
-    {
-        "action":  "No action. Track whether Apache sustainment or depot capacity in the region is offered to Gulf operators.",
-        "basis":  "Watch: Boeing platform context with no GCC counterparty, no GAL service-line decision and no decision window.",
-        "companies":  [
-                          "Boeing"
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-10-14",
-        "headline":  "Israel signs for 12 Boeing AH-64E Apache helicopters; deliveries from the early 2030s",
-        "lines":  [
-                      "Military MRO"
-                  ],
-        "priority":  "watch",
-        "scope":  "Capability themes",
-        "source":  "Times of Israel; Ynet (both citing the Israeli Defense Ministry); Defense News (headline only, page not loaded)",
-        "url":  "https://www.timesofisrael.com/liveblog_entry/israel-signs-deal-to-buy-12-apache-helicopters-from-uss-boeing/",
-        "why":  "Boeing adds a rotary-wing fleet order that will draw on the same Apache sustainment base used by other operators. Outlets differ on value: Ynet notes a NIS 1 billion (about $323M) budget allocation and says a \u0027$1B\u0027 headline figure is a currency mislabel; total contract value and support terms are not stated."
-    },
-    {
-        "action":  "No action. Note the system as possible future content in the EDGE-Hanwha programme; revisit if a UAE variant is named.",
-        "basis":  "Watch: capability context on a watchlist company with no UAE link, no identifiable counterparty for GAL and no decision window.",
-        "companies":  [
-                          "Hanwha"
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-10-15",
-        "headline":  "Hanwha Systems reports its Cheongwang laser downed three target drones in a South Korean Army exercise; 30kW vehicle-mounted laser also shown",
-        "lines":  [
-
-                  ],
-        "priority":  "watch",
-        "scope":  "Capability themes",
-        "source":  "Herald Corp; Defense Arabia (company-announced results, not independently verified)",
-        "url":  "https://biz.heraldcorp.com/article/10903851",
-        "why":  "Hanwha, EDGE\u0027s partner in the 15 September air defense term sheet, demonstrated low-cost laser counter-drone systems on 14 October and is developing a 50kW export vehicle (completion planned 2027). Herald notes that at the 1 October Armed Forces Day event not every target drone was downed. No UAE, maintenance or support element is reported."
-    },
-    {
-        "action":  "Ask Tawazun and the UAE Air Force whether the industrial arrangements include in-country sustainment or training workshare. Revisit when texts or follow-on contracts are published; IDEX is in January.",
-        "basis":  "Medium: relevant to Military MRO and engineering/training on a UAE fleet through a named counterparty (Tawazun, EDGE), but scope is unpublished and no GAL role or decision window under 60 days is identified.",
-        "companies":  [
-                          "EDGE"
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-10-20",
-        "headline":  "UAE and France exchange Strategic Defence Partnership Framework; Rafale F5 intergovernmental agreement and Tawazun-French DGA industrial arrangements reported during Macron\u0027s Abu Dhabi visit (20 Oct)",
-        "lines":  [
-                      "Military MRO",
-                      "Engineering, training and simulation"
-                  ],
-        "priority":  "med",
-        "scope":  "UAE / GCC",
-        "source":  "The National (20-21 Oct); Gulf News (20 Oct); Sharjah24 (20 Oct, WAM-style report). Agreement texts not published; terms, quantities and values not reported. Kuwait: eight agreements on 19 Oct per bne IntelliNews (summary only).",
-        "url":  "https://gulfnews.com/uae/government/uae-france-strengthen-defence-ties-with-strategic-partnership-framework-exchange-1.500716903",
-        "why":  "Gulf News records the framework signed by the UAE Minister of State for Defence Affairs and the French Armed Forces Minister, and a separate defence-industry implementing arrangement exchanged by the Tawazun Council Secretary General and the French Delegate-General for Armaments. The National also lists a Rafale F5 cooperation agreement and industrial cooperation on future combat aviation. Support, MRO and training content is not reported."
-    },
-    {
-        "action":  "No action now. Track whether the supplier and sustainment arrangement are published, as a reference for a C-130-class firefighting conversion and support offer.",
-        "basis":  "Watch: capability context only; no GAL counterparty, no GCC buyer and no decision window.",
-        "companies":  [
-
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-10-19",
-        "headline":  "Portugal plans C-130 firefighting role from 2027 using two government-bought kits (about EUR 16M)",
-        "lines":  [
-                      "Aerial firefighting",
-                      "Military MRO"
-                  ],
-        "priority":  "watch",
-        "scope":  "Capability themes",
-        "source":  "RTP (19 Oct); AerialFire Magazine (23 Oct). Number of aircraft and kit supplier not stated in either report.",
-        "url":  "https://aerialfiremag.com/2026/10/23/portugals-air-force-to-introduce-c-130-aircraft-into-firefighting",
-        "why":  "A second European air force is converting transport aircraft to firefighting, alongside the UK announcement and CAL FIRE\u0027s C-130H fleet. The kits are government-bought, so integration and sustainment of the aircraft sit with the operator."
-    },
-    {
-        "action":  "Track the announcement for aviation, UAS or sustainment content and for the identity of the regional partner.",
-        "basis":  "Watch: early signal with no stated scope, counterparty or decision window; no direct effect on a GAL service line identified.",
-        "companies":  [
-
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-10-19",
-        "headline":  "Qatar defence minister says Doha will announce a defence production hub with a regional partner and US, UK and French involvement \u0027soon\u0027",
-        "lines":  [
-
-                  ],
-        "priority":  "watch",
-        "scope":  "UAE / GCC",
-        "source":  "The National (19-20 Oct, citing Reuters report of remarks at Global Security Forum, Doha). Partner, location, scope and timeline not stated; single outlet.",
-        "url":  "https://www.thenationalnews.com/business/economy/2026/10/19/qatar-to-announce-defence-production-plant/",
-        "why":  "Qatar is moving to localise defence manufacturing after wartime damage. The unnamed regional partner could be a competitor to UAE industry for Gulf localisation work; aviation and MRO scope is not mentioned."
-    },
-    {
-        "action":  "Watch for expeditionary support and basing requirements in Saudi Arabia and Qatar that could reach regional MRO or logistics providers. No action now.",
-        "basis":  "Watch: raises Gulf operating tempo and forward-support demand, but names no GAL counterparty or sustainment procurement.",
-        "companies":  [
-
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-10-20",
-        "headline":  "UK adds RAF Typhoons and an A400M to its mission to defend Saudi Arabia against Houthi attacks; Sky Sabre shipped; no offensive strikes",
-        "lines":  [
-                      "Military MRO",
-                      "Aerial refueling"
-                  ],
-        "priority":  "watch",
-        "scope":  "UAE / GCC",
-        "source":  "The National (20 Oct); corroborated by ITV News, The Aviationist (20 Oct). UK official statement not read directly.",
-        "url":  "https://www.thenationalnews.com/news/uk/2026/10/20/uk-mission-to-defend-saudi-arabia-adds-typhoon-jets/",
-        "why":  "The deployment follows a September Voyager tanker deployment and four Typhoons already in Qatar. Houthi strikes on Saudi Arabia have intensified, according to the reports; the Houthis have not been quoted on the deployment in the sources reviewed."
-    },
-    {
-        "action":  "Include in the EDGE business-development dialogue on UAS and autonomy sustainment and training. No action now.",
-        "basis":  "Watch: shows EDGE in-house autonomy capability and US Navy interoperability; no sustainment scope, GAL role or decision window.",
-        "companies":  [
-                          "EDGE"
-                      ],
-        "confidence":  "Certain",
-        "date":  "2026-10-21",
-        "headline":  "EDGE leads UAE Navy demonstration of sovereign autonomous systems with the US Navy, including counter-drone interceptors",
-        "lines":  [
-                      "Drones / UAS",
-                      "Engineering, training and simulation"
-                  ],
-        "priority":  "watch",
-        "scope":  "UAE / GCC",
-        "source":  "Defense Arabia (21 Oct); EDGE media release (21 Oct).",
-        "url":  "https://english.defensearabia.com/edge-leads-integration-of-sovereign-autonomous-systems-in-uae-navy-demonstration-with-allied-forces/",
-        "why":  "The demonstration was mainly maritime; air-related systems were the VORTEX-E counter-drone interceptor, SKYSHIELD-N and MIRSAD-X sensors. EDGE supplied planning, host facilities and operational assets; the reports do not describe sustainment or training arrangements."
-    },
-    {
-        "action":  "Monitor for aviation or sustainment workstreams under the MoU and for any Qatari request for local support partners. No outreach needed now.",
-        "basis":  "Watch: regional context and early signal; no GAL role, identified service-line counterparty or decision window under 60 days.",
-        "companies":  [
-
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-10-21",
-        "headline":  "Qatar, Türkiye, Pakistan and Indonesia sign \u0027Badr\u0027 defence-industry MoU covering joint production, technology transfer and technical military training",
-        "lines":  [
-                      "Engineering, training and simulation"
-                  ],
-        "priority":  "watch",
-        "scope":  "UAE / GCC",
-        "source":  "Al Jazeera (21 Oct); Geo TV (21 Oct, citing Turkish Defence Ministry statement). No values or timelines published; UAE not mentioned.",
-        "url":  "https://www.aljazeera.com/news/2026/10/21/how-qatar-turkiye-pakistan-and-indonesia-are-deepening-defence-ties",
-        "why":  "A GCC customer is forming a Türkiye-led supply chain for joint production and training, outside the US and European channels GAL typically works within. Aviation, MRO and sustainment content is not reported."
-    },
-    {
-        "action":  "No action now. Keep as a reference for an aerial firefighting conversion and sustainment offer.",
-        "basis":  "Watch: capability context only; no GAL counterparty, no GCC buyer and no decision window.",
-        "companies":  [
-
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-10-22",
-        "headline":  "CAL FIRE adds a fifth state-owned C-130H airtanker at Paso Robles; fleet two short of planned seven",
-        "lines":  [
-                      "Aerial firefighting",
-                      "Military MRO"
-                  ],
-        "priority":  "watch",
-        "scope":  "Capability themes",
-        "source":  "AerialFire Magazine (22 Oct). Single outlet; who performs maintenance is not stated.",
-        "url":  "https://aerialfiremag.com/2026/10/22/cal-fire-c-130h-airtanker-added-to-paso-robles-air-attack-base/",
-        "why":  "California describes itself as the first state to own, operate and maintain C-130H airtankers, each carrying up to 4,000 gallons of retardant. The model converts surplus military transports into government-held firefighting assets, which creates a recurring sustainment need."
-    },
-    {
-        "action":  "Note the forward-repair and in-theatre \u0027speed line\u0027 concepts as a reference for Gulf tanker and transport support offers. No action now.",
-        "basis":  "Watch: context on battle-damage repair, depot capacity and maintainer shortages; no GAL counterparty or decision window.",
-        "companies":  [
-
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-10-21",
-        "headline":  "AFMC: at least two KC-135s seriously damaged in the Iran conflict remain in depot; depots short of staff",
-        "lines":  [
-                      "Military MRO",
-                      "Aerial refueling",
-                      "Manpower"
-                  ],
-        "priority":  "watch",
-        "scope":  "Global MRO",
-        "source":  "Air \u0026 Space Forces Magazine (21 Oct), citing AFMC commander Lt. Gen. Linda Hurry. Secondary report of official statements.",
-        "url":  "https://airandspaceforces.com/kc-135s-damaged-by-iran-in-depot-afmc-head",
-        "why":  "Six KC-135s were damaged in the opening weeks of the conflict, five of them in a missile strike on Prince Sultan Air Base in Saudi Arabia. Forward repair teams made temporary fixes; the worst-hit aircraft needed stateside depot rebuild, and AFMC reports about 8,200 vacant billets, 2,600 of them in the Air Force Sustainment Center."
-    },
-    {
-        "action":  "No action now. Keep as a reference for any GCC wildfire or civil-protection requirement for military-airframe firefighting.",
-        "basis":  "Watch: capability context only; no GAL counterparty, no GCC buyer and no decision window.",
-        "companies":  [
-
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-10-22",
-        "headline":  "UK announces RAF Chinooks and A400M Atlas to be equipped for wildfire fighting; no equipment, contractor or delivery date stated",
-        "lines":  [
-                      "Aerial firefighting",
-                      "Military MRO"
-                  ],
-        "priority":  "watch",
-        "scope":  "Capability themes",
-        "source":  "UK Defence Journal (22 Oct); Forces News (23 Oct). Government announcement reported by two outlets; primary release not read. Airbus A400M firefighting system described as under development and testing.",
-        "url":  "https://ukdefencejournal.org.uk/raf-chinooks-and-a400m-to-fight-uk-wildfires-from-the-sky/",
-        "why":  "A NATO air force is adding firefighting kits (Chinook bucket, A400M system) to existing military fleets, which is the dual-use model behind an aerial firefighting offer built on military airframes. UK Defence Journal reports no funding figure for the aircraft element and no contractor."
-    },
-    {
-        "action":  "No action now. Note the training track and the joint committee as a possible channel for Canadian-sourced training or simulation requirements.",
-        "basis":  "Watch: government-to-government framework with no counterparty, programme or decision window tied to a GAL service line.",
-        "companies":  [
-
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-10-27",
-        "headline":  "Canada and UAE sign defence co-operation agreement during Abu Dhabi Crown Prince\u0027s Ottawa visit",
-        "lines":  [
-                      "Engineering, training and simulation"
-                  ],
-        "priority":  "watch",
-        "scope":  "UAE / GCC",
-        "source":  "CP24 / Canadian Press (27 Oct 2026); The National (28 Oct 2026) for the visit. Agreement text not seen; the Canadian PM\u0027s office release (25 Oct) announced the visit only.",
-        "url":  "https://www.cp24.com/news/canada/2026/10/27/canada-united-arab-emirates-sign-defence-energy-deals-during-crown-princes-visit/",
-        "why":  "The agreement covers military education and training, joint exercises, cybersecurity and information sharing, and creates a joint military committee. No companies, aviation content or programmes are named."
-    },
-    {
-        "action":  "No action now. Note the regional-hub model for Patriot users in the Gulf, including Kuwait\u0027s pending repair-and-return sale.",
-        "basis":  "Watch: context on sustainment models; no GAL service line, counterparty or decision window is affected.",
-        "companies":  [
-                          "Lockheed Martin"
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-10-27",
-        "headline":  "US selects Poland to host a European PAC-3 missile maintenance, repair and overhaul facility",
-        "lines":  [
-                      "Military MRO"
-                  ],
-        "priority":  "watch",
-        "scope":  "Global MRO",
-        "source":  "Defense News and Breaking Defense (Pentagon announcement as reported; official release not read)",
-        "url":  "https://breakingdefense.com/2026/10/defense-department-selects-poland-for-new-pac-3-maintenance-facility/",
-        "why":  "The Pentagon is placing Patriot interceptor repair in a regional hub to shorten turnaround times, with Germany, the Netherlands and Sweden in the supply chain. This is missile, not aircraft, sustainment, and neither outlet mentions Gulf users."
-    },
-    {
-        "action":  "Note as a benchmark for training-support scope and pricing structure. Check the official DoD notice before citing externally.",
-        "basis":  "Watch: relevant to the training line, but the counterparty is Boeing under an existing FMS contract, with no GAL role and no open decision window.",
-        "companies":  [
-                          "Boeing"
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-10-29",
-        "headline":  "US Navy modifies Boeing contract for Kuwait F/A-18 training support: $11.1 million, in-country instructors at Ahmad al-Jaber Air Base",
-        "lines":  [
-                      "Engineering, training and simulation"
-                  ],
-        "priority":  "watch",
-        "scope":  "UAE / GCC",
-        "source":  "TheDefenseWatch (single secondary report, citing a US Navy announcement it does not link); not confirmed against the DoD contract notice",
-        "url":  "https://thedefensewatch.com/aerospace-aviation/boeing-kuwait-fa-18-training-contract/",
-        "why":  "The modification (P00012, funded by Kuwait through FMS, to October 2027) covers instructor pilots, ground-training specialists and in-country support. It shows the OEM-led contractor model for Gulf fleet training, sole-sourced and not competed."
-    },
-    {
-        "action":  "No action now. Note the 2034 sell-out when discussing conversion-based or leased firefighting options with partners.",
-        "basis":  "Watch: capability context only; no Gulf buyer, GAL counterparty or decision window, and the financing figure is unreconciled between sources.",
-        "companies":  [
-
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-10-30",
-        "disputed":  true,
-        "headline":  "De Havilland Canada secures up to US$1.83B in Canadian government and EDC financing to double DHC-515 firefighting aircraft output",
-        "lines":  [
-                      "Aerial firefighting"
-                  ],
-        "priority":  "watch",
-        "scope":  "Capability themes",
-        "source":  "Dealroom summary (31 Oct); AerialFire Magazine headline (2 Nov) could not be loaded. Figures differ: the summary gives up to US$1.83B (C$1.79B), while the AerialFire headline says $2.5B. Terms undisclosed; confirm against the company release.",
-        "url":  "https://aerialfiremag.com/2026/11/02/de-havilland-canada-reaches-2-5b-financing-deal-to-double-waterbomber-production",
-        "why":  "The 38 DHC-515 orders on the books are reported as sold out through 2034, with new production slots from 2030. The financing shows firefighting-aircraft supply is constrained, which affects lead times for any GCC buyer of purpose-built aircraft."
-    },
-    {
-        "action":  "Note as a reference for third-party component support on MRTT fleets. No action now.",
-        "basis":  "Watch: relevant to the aerial refueling line, but no GAL counterparty, no named Gulf operator and no decision window.",
-        "companies":  [
-
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-10-30",
-        "headline":  "EPCOR (AFI KLM E\u0026M) to provide APU maintenance support for Airbus A330 MRTT tankers worldwide",
-        "lines":  [
-                      "Aerial refueling",
-                      "Military MRO"
-                  ],
-        "priority":  "watch",
-        "scope":  "Global MRO",
-        "source":  "AviTrader (30 Oct) and ASDNews (28 Oct); company-level reports. Customers and value not disclosed.",
-        "url":  "https://avitrader.com/2026/10/30/epcor-wins-a330-mrtt-global-apu-support-contract/",
-        "why":  "The agreement extends an existing EPCOR-Airbus Defence and Space arrangement for engine and component work to APUs on MRTT aircraft operated by Airbus customers. Neither report names operators or any Gulf user."
-    },
-    {
-        "action":  "No action. Track whether the same investment route is applied to UAE aerial-systems or support companies.",
-        "basis":  "Watch: context on EDGE consolidation; no GAL service line, counterparty or decision window.",
-        "companies":  [
-                          "EDGE"
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-10-31",
-        "headline":  "EDGE\u0027s Strategic Development Fund to take majority stake in MARIX, UAE autonomous surface vessel maker",
-        "lines":  [
-
-                  ],
-        "priority":  "watch",
-        "scope":  "UAE / GCC",
-        "source":  "Defense Arabia (2 Nov), reporting the 31 Oct announcement; single outlet",
-        "url":  "https://english.defensearabia.com/abu-dhabis-strategic-development-fund-signs-agreement-to-increase-ownership-in-marix/",
-        "why":  "EDGE continues to take control of UAE uncrewed-systems developers through its investment arm. MARIX is maritime and has no stated aviation link."
-    },
-    {
-        "action":  "No action. Note the structure when reviewing OEM parts-supply terms for GAL\u0027s military MRO work.",
-        "basis":  "Watch: commercial deal at a UAE MRO with no GAL counterparty, military scope or decision window.",
-        "companies":  [
-                          "Boeing"
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-11-02",
-        "headline":  "Boeing and Etihad Engineering renew tailored parts package: Boeing takes over parts procurement and inventory for Etihad\u0027s maintenance operation",
-        "lines":  [
-
-                  ],
-        "priority":  "watch",
-        "scope":  "Global MRO",
-        "source":  "AviTrader (2 Nov); commercial deal, term and value not stated, military content not mentioned",
-        "url":  "https://avitrader.com/2026/11/02/boeing-etihad-engineering-renew-parts-deal/",
-        "why":  "A commercial renewal at a UAE MRO provider. The OEM-managed parts model shifts procurement and inventory to the OEM in return for a committed purchase range, which is a structure GAL may be offered or asked to match by OEMs on its own fleets. No military scope is stated."
-    },
-    {
-        "action":  "No action. Note as regional capacity and a possible labour-market competitor.",
-        "basis":  "Commercial deal with no GAL service-line counterparty or decision window, so Watch.",
-        "companies":  [
-
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-11-02",
-        "headline":  "Dubai South and Phoenix Aviation sign plot agreement for a wide-body MRO centre of excellence at Mohammed bin Rashid Aerospace Hub",
-        "lines":  [
-
-                  ],
-        "priority":  "watch",
-        "scope":  "Global MRO",
-        "source":  "AviTrader (single outlet; signed at MRO Europe, Amsterdam). Commercial; value not disclosed.",
-        "url":  "https://avitrader.com/2026/11/02/dubai-south-signs-mro-deal-with-phoenix-aviation/",
-        "why":  "New commercial wide-body MRO, cabin-completion and cargo-conversion capacity in Dubai, adding to regional MRO supply and competition for technicians. No military scope is stated."
-    },
-    {
-        "action":  "No action now. Note the Portugal-led support model as a reference when discussing GAL\u0027s role with Embraer.",
-        "basis":  "Watchlist OEM partner and relevant to the military MRO and training lines, but the customer is outside the GCC and no GAL counterparty or decision window is identified, so Watch.",
-        "companies":  [
-                          "Embraer"
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-11-02",
-        "headline":  "Greece orders three Embraer KC-390 Millennium aircraft with options for three more, via a Portugal government-to-government framework",
-        "lines":  [
-                      "Military MRO",
-                      "Engineering, training and simulation"
-                  ],
-        "priority":  "watch",
-        "scope":  "Capability themes",
-        "source":  "AviTrader (2 Nov), confirmed by Defence-Industry.eu, The Aviationist and Portugal Global headlines in search results. Order value not stated; official Embraer or Greek MoD release not read.",
-        "url":  "https://avitrader.com/2026/11/02/the-hellenic-ministry-of-national-defense-signs-kc-390-order/",
-        "why":  "A further European KC-390 customer broadens the fleet that Embraer\u0027s UAE support and training arrangements will sit alongside. AviTrader says Greece gains access to European co-operation in training, technical support and logistics; it does not mention MRO, the UAE or GAL."
-    },
-    {
-        "action":  "Note as a reference for tanker conversion and in-country content. Revisit if a Gulf operator is linked to the 767 MMTT.",
-        "basis":  "Watch: relevant to the aerial refueling line, but status is disputed between outlets, with no GAL counterparty and no Gulf operator.",
-        "companies":  [
-
-                      ],
-        "confidence":  "Guessing",
-        "date":  "2026-11-02",
-        "disputed":  true,
-        "headline":  "Report: IAI nearing roughly $906 million deal to convert six Boeing 767s into tankers for the Indian Air Force; award status unclear across outlets",
-        "lines":  [
-                      "Aerial refueling",
-                      "Engineering, training and simulation"
-                  ],
-        "priority":  "watch",
-        "scope":  "Global MRO",
-        "source":  "Indian Defence News (2 Nov), citing Times of India; not confirmed by IAI or the Indian MoD. Globes reported the same $905.7M figure with IAI as sole bidder on 4 Nov 2025, and reported a closed HAL-IAI deal at $0.9-1.1B on 6 May 2026 citing Defense News India. India\u0027s AoN is reported for Jan 2026. These accounts conflict on whether a contract was signed.",
-        "url":  "https://www.indiandefensenews.in/2026/11/iai-poised-to-secure-906-million-indian.html",
-        "why":  "IAI Bedek would convert pre-owned 767s with HAL as likely Indian partner, at least 30% of work in India, deliveries 2028-2030. The 2 Nov report repeats a figure first published a year ago, and an earlier Globes report described the deal as signed, so treat the current status as unconfirmed. It shows a conversion-plus-local-content tanker model that competes with new-build MRTT and KC-46 offers."
-    },
-    {
-        "action":  "No action. Note the pipeline when planning UAE engineer and technician recruitment; no maintenance or sustainment content is reported.",
-        "basis":  "Watch: context on UAE talent and simulation capability; no counterparty, procurement or decision window tied to a GAL service line.",
-        "companies":  [
-                          "Lockheed Martin",
-                          "EDGE",
-                          "Calidus"
-                      ],
-        "confidence":  "Likely",
-        "date":  "2026-11-03",
-        "headline":  "Lockheed Martin graduates 57 interns from its Abu Dhabi innovation centre; projects include a cockpit simulator for pilot training",
-        "lines":  [
-                      "Engineering, training and simulation",
-                      "Manpower"
-                  ],
-        "priority":  "watch",
-        "scope":  "UAE / GCC",
-        "source":  "Defense Arabia (company-sourced report of the 3 Nov ceremony; single outlet)",
-        "url":  "https://english.defensearabia.com/lockheed-martin-celebrates-57-ciss-graduates-strengthening-uae-defense-and-technology-talent-pipeline/",
-        "why":  "The CISS programme has graduated more than 350 UAE students since 2017. Alumni work at the Ministry of Defence, EDGE, Calidus and TII, and one project was a high-fidelity cockpit simulator. It shows a Lockheed-run UAE engineering and simulation talent pipeline that feeds the same employers GAL recruits from and partners with."
-    },
-    {
-        "action":  "Confirm dates, then decide on attendance or meetings with Embraer, AMMROC and EDGE contacts. Add to the 2027 exhibition calendar.",
-        "basis":  "Calendar item; dates to be confirmed.",
-        "companies":  [
-
-                      ],
-        "confidence":  "Likely",
-        "date":  "2027-02-02",
-        "headline":  "MRO Middle East \u0026 AIME next edition set for 2-3 February 2027 at Dubai World Trade Centre",
-        "lines":  [
-                      "Military MRO"
-                  ],
-        "priority":  "watch",
-        "scope":  "UAE / GCC",
-        "source":  "Aviation Week MRO Middle East site (page wording on the 2026 and 2027 editions is ambiguous; confirm dates)",
-        "url":  "https://mromiddleeast.aviationweek.com/",
-        "why":  "Regional MRO gathering in Dubai where OEMs and MRO providers announce partnerships. The page shows no dedicated military or defense track."
-    }
+  {
+    "action": "Confirm dates, then decide on attendance or meetings with Embraer, AMMROC and EDGE contacts. Add to the 2027 exhibition calendar.",
+    "basis": "Calendar item; dates to be confirmed.",
+    "companies": [],
+    "confidence": "Likely",
+    "date": "2027-02-02",
+    "headline": "MRO Middle East & AIME next edition set for 2-3 February 2027 at Dubai World Trade Centre",
+    "lines": [
+      "Military MRO"
+    ],
+    "priority": "watch",
+    "scope": "UAE / GCC",
+    "source": "Aviation Week MRO Middle East site (page wording on the 2026 and 2027 editions is ambiguous; confirm dates)",
+    "url": "https://mromiddleeast.aviationweek.com/",
+    "why": "Regional MRO gathering in Dubai where OEMs and MRO providers announce partnerships. The page shows no dedicated military or defense track."
+  },
+  {
+    "action": "No action. Note the pipeline when planning UAE engineer and technician recruitment; no maintenance or sustainment content is reported.",
+    "basis": "Watch: context on UAE talent and simulation capability; no counterparty, procurement or decision window tied to a GAL service line.",
+    "companies": [
+      "Lockheed Martin",
+      "EDGE",
+      "Calidus"
+    ],
+    "confidence": "Likely",
+    "date": "2026-11-03",
+    "headline": "Lockheed Martin graduates 57 interns from its Abu Dhabi innovation centre; projects include a cockpit simulator for pilot training",
+    "lines": [
+      "Engineering, training and simulation",
+      "Manpower"
+    ],
+    "priority": "watch",
+    "scope": "UAE / GCC",
+    "source": "Defense Arabia (company-sourced report of the 3 Nov ceremony; single outlet)",
+    "url": "https://english.defensearabia.com/lockheed-martin-celebrates-57-ciss-graduates-strengthening-uae-defense-and-technology-talent-pipeline/",
+    "why": "The CISS programme has graduated more than 350 UAE students since 2017. Alumni work at the Ministry of Defence, EDGE, Calidus and TII, and one project was a high-fidelity cockpit simulator. It shows a Lockheed-run UAE engineering and simulation talent pipeline that feeds the same employers GAL recruits from and partners with."
+  },
+  {
+    "action": "No action. Note the structure when reviewing OEM parts-supply terms for GAL's military MRO work.",
+    "basis": "Watch: commercial deal at a UAE MRO with no GAL counterparty, military scope or decision window.",
+    "companies": [
+      "Boeing"
+    ],
+    "confidence": "Likely",
+    "date": "2026-11-02",
+    "headline": "Boeing and Etihad Engineering renew tailored parts package: Boeing takes over parts procurement and inventory for Etihad's maintenance operation",
+    "lines": [],
+    "priority": "watch",
+    "scope": "Global MRO",
+    "source": "AviTrader (2 Nov); commercial deal, term and value not stated, military content not mentioned",
+    "url": "https://avitrader.com/2026/11/02/boeing-etihad-engineering-renew-parts-deal/",
+    "why": "A commercial renewal at a UAE MRO provider. The OEM-managed parts model shifts procurement and inventory to the OEM in return for a committed purchase range, which is a structure GAL may be offered or asked to match by OEMs on its own fleets. No military scope is stated."
+  },
+  {
+    "action": "No action. Note as regional capacity and a possible labour-market competitor.",
+    "basis": "Commercial deal with no GAL service-line counterparty or decision window, so Watch.",
+    "companies": [],
+    "confidence": "Likely",
+    "date": "2026-11-02",
+    "headline": "Dubai South and Phoenix Aviation sign plot agreement for a wide-body MRO centre of excellence at Mohammed bin Rashid Aerospace Hub",
+    "lines": [],
+    "priority": "watch",
+    "scope": "Global MRO",
+    "source": "AviTrader (single outlet; signed at MRO Europe, Amsterdam). Commercial; value not disclosed.",
+    "url": "https://avitrader.com/2026/11/02/dubai-south-signs-mro-deal-with-phoenix-aviation/",
+    "why": "New commercial wide-body MRO, cabin-completion and cargo-conversion capacity in Dubai, adding to regional MRO supply and competition for technicians. No military scope is stated."
+  },
+  {
+    "action": "No action now. Note the Portugal-led support model as a reference when discussing GAL's role with Embraer.",
+    "basis": "Watchlist OEM partner and relevant to the military MRO and training lines, but the customer is outside the GCC and no GAL counterparty or decision window is identified, so Watch.",
+    "companies": [
+      "Embraer"
+    ],
+    "confidence": "Likely",
+    "date": "2026-11-02",
+    "headline": "Greece orders three Embraer KC-390 Millennium aircraft with options for three more, via a Portugal government-to-government framework",
+    "lines": [
+      "Military MRO",
+      "Engineering, training and simulation"
+    ],
+    "priority": "watch",
+    "scope": "Capability themes",
+    "source": "AviTrader (2 Nov), confirmed by Defence-Industry.eu, The Aviationist and Portugal Global headlines in search results. Order value not stated; official Embraer or Greek MoD release not read.",
+    "url": "https://avitrader.com/2026/11/02/the-hellenic-ministry-of-national-defense-signs-kc-390-order/",
+    "why": "A further European KC-390 customer broadens the fleet that Embraer's UAE support and training arrangements will sit alongside. AviTrader says Greece gains access to European co-operation in training, technical support and logistics; it does not mention MRO, the UAE or GAL."
+  },
+  {
+    "action": "Note as a reference for tanker conversion and in-country content. Revisit if a Gulf operator is linked to the 767 MMTT.",
+    "basis": "Watch: relevant to the aerial refueling line, but status is disputed between outlets, with no GAL counterparty and no Gulf operator.",
+    "companies": [],
+    "confidence": "Guessing",
+    "date": "2026-11-02",
+    "disputed": true,
+    "headline": "Report: IAI nearing roughly $906 million deal to convert six Boeing 767s into tankers for the Indian Air Force; award status unclear across outlets",
+    "lines": [
+      "Aerial refueling",
+      "Engineering, training and simulation"
+    ],
+    "priority": "watch",
+    "scope": "Global MRO",
+    "source": "Indian Defence News (2 Nov), citing Times of India; not confirmed by IAI or the Indian MoD. Globes reported the same $905.7M figure with IAI as sole bidder on 4 Nov 2025, and reported a closed HAL-IAI deal at $0.9-1.1B on 6 May 2026 citing Defense News India. India's AoN is reported for Jan 2026. These accounts conflict on whether a contract was signed.",
+    "url": "https://www.indiandefensenews.in/2026/11/iai-poised-to-secure-906-million-indian.html",
+    "why": "IAI Bedek would convert pre-owned 767s with HAL as likely Indian partner, at least 30% of work in India, deliveries 2028-2030. The 2 Nov report repeats a figure first published a year ago, and an earlier Globes report described the deal as signed, so treat the current status as unconfirmed. It shows a conversion-plus-local-content tanker model that competes with new-build MRTT and KC-46 offers."
+  },
+  {
+    "action": "No action. Track whether the same investment route is applied to UAE aerial-systems or support companies.",
+    "basis": "Watch: context on EDGE consolidation; no GAL service line, counterparty or decision window.",
+    "companies": [
+      "EDGE"
+    ],
+    "confidence": "Likely",
+    "date": "2026-10-31",
+    "headline": "EDGE's Strategic Development Fund to take majority stake in MARIX, UAE autonomous surface vessel maker",
+    "lines": [],
+    "priority": "watch",
+    "scope": "UAE / GCC",
+    "source": "Defense Arabia (2 Nov), reporting the 31 Oct announcement; single outlet",
+    "url": "https://english.defensearabia.com/abu-dhabis-strategic-development-fund-signs-agreement-to-increase-ownership-in-marix/",
+    "why": "EDGE continues to take control of UAE uncrewed-systems developers through its investment arm. MARIX is maritime and has no stated aviation link."
+  },
+  {
+    "action": "No action now. Note the 2034 sell-out when discussing conversion-based or leased firefighting options with partners.",
+    "basis": "Watch: capability context only; no Gulf buyer, GAL counterparty or decision window, and the financing figure is unreconciled between sources.",
+    "companies": [],
+    "confidence": "Likely",
+    "date": "2026-10-30",
+    "disputed": true,
+    "headline": "De Havilland Canada secures up to US$1.83B in Canadian government and EDC financing to double DHC-515 firefighting aircraft output",
+    "lines": [
+      "Aerial firefighting"
+    ],
+    "priority": "watch",
+    "scope": "Capability themes",
+    "source": "Dealroom summary (31 Oct); AerialFire Magazine headline (2 Nov) could not be loaded. Figures differ: the summary gives up to US$1.83B (C$1.79B), while the AerialFire headline says $2.5B. Terms undisclosed; confirm against the company release.",
+    "url": "https://aerialfiremag.com/2026/11/02/de-havilland-canada-reaches-2-5b-financing-deal-to-double-waterbomber-production",
+    "why": "The 38 DHC-515 orders on the books are reported as sold out through 2034, with new production slots from 2030. The financing shows firefighting-aircraft supply is constrained, which affects lead times for any GCC buyer of purpose-built aircraft."
+  },
+  {
+    "action": "Note as a reference for third-party component support on MRTT fleets. No action now.",
+    "basis": "Watch: relevant to the aerial refueling line, but no GAL counterparty, no named Gulf operator and no decision window.",
+    "companies": [],
+    "confidence": "Likely",
+    "date": "2026-10-30",
+    "headline": "EPCOR (AFI KLM E&M) to provide APU maintenance support for Airbus A330 MRTT tankers worldwide",
+    "lines": [
+      "Aerial refueling",
+      "Military MRO"
+    ],
+    "priority": "watch",
+    "scope": "Global MRO",
+    "source": "AviTrader (30 Oct) and ASDNews (28 Oct); company-level reports. Customers and value not disclosed.",
+    "url": "https://avitrader.com/2026/10/30/epcor-wins-a330-mrtt-global-apu-support-contract/",
+    "why": "The agreement extends an existing EPCOR-Airbus Defence and Space arrangement for engine and component work to APUs on MRTT aircraft operated by Airbus customers. Neither report names operators or any Gulf user."
+  },
+  {
+    "action": "Note as a benchmark for training-support scope and pricing structure. Check the official DoD notice before citing externally.",
+    "basis": "Watch: relevant to the training line, but the counterparty is Boeing under an existing FMS contract, with no GAL role and no open decision window.",
+    "companies": [
+      "Boeing"
+    ],
+    "confidence": "Likely",
+    "date": "2026-10-29",
+    "headline": "US Navy modifies Boeing contract for Kuwait F/A-18 training support: $11.1 million, in-country instructors at Ahmad al-Jaber Air Base",
+    "lines": [
+      "Engineering, training and simulation"
+    ],
+    "priority": "watch",
+    "scope": "UAE / GCC",
+    "source": "TheDefenseWatch (single secondary report, citing a US Navy announcement it does not link); not confirmed against the DoD contract notice",
+    "url": "https://thedefensewatch.com/aerospace-aviation/boeing-kuwait-fa-18-training-contract/",
+    "why": "The modification (P00012, funded by Kuwait through FMS, to October 2027) covers instructor pilots, ground-training specialists and in-country support. It shows the OEM-led contractor model for Gulf fleet training, sole-sourced and not competed."
+  },
+  {
+    "action": "No action now. Note the training track and the joint committee as a possible channel for Canadian-sourced training or simulation requirements.",
+    "basis": "Watch: government-to-government framework with no counterparty, programme or decision window tied to a GAL service line.",
+    "companies": [],
+    "confidence": "Likely",
+    "date": "2026-10-27",
+    "headline": "Canada and UAE sign defence co-operation agreement during Abu Dhabi Crown Prince's Ottawa visit",
+    "lines": [
+      "Engineering, training and simulation"
+    ],
+    "priority": "watch",
+    "scope": "UAE / GCC",
+    "source": "CP24 / Canadian Press (27 Oct 2026); The National (28 Oct 2026) for the visit. Agreement text not seen; the Canadian PM's office release (25 Oct) announced the visit only.",
+    "url": "https://www.cp24.com/news/canada/2026/10/27/canada-united-arab-emirates-sign-defence-energy-deals-during-crown-princes-visit/",
+    "why": "The agreement covers military education and training, joint exercises, cybersecurity and information sharing, and creates a joint military committee. No companies, aviation content or programmes are named."
+  },
+  {
+    "action": "No action now. Note the regional-hub model for Patriot users in the Gulf, including Kuwait's pending repair-and-return sale.",
+    "basis": "Watch: context on sustainment models; no GAL service line, counterparty or decision window is affected.",
+    "companies": [
+      "Lockheed Martin"
+    ],
+    "confidence": "Likely",
+    "date": "2026-10-27",
+    "headline": "US selects Poland to host a European PAC-3 missile maintenance, repair and overhaul facility",
+    "lines": [
+      "Military MRO"
+    ],
+    "priority": "watch",
+    "scope": "Global MRO",
+    "source": "Defense News and Breaking Defense (Pentagon announcement as reported; official release not read)",
+    "url": "https://breakingdefense.com/2026/10/defense-department-selects-poland-for-new-pac-3-maintenance-facility/",
+    "why": "The Pentagon is placing Patriot interceptor repair in a regional hub to shorten turnaround times, with Germany, the Netherlands and Sweden in the supply chain. This is missile, not aircraft, sustainment, and neither outlet mentions Gulf users."
+  },
+  {
+    "action": "Track how the framework treats foreign operators and regional repair capacity, with the Saudi F-35 sale (48 aircraft) as the Gulf test case. Ask Lockheed Martin UAE industrial contacts whether in-region sustainment workshare is contemplated.",
+    "basis": "Medium: indirect impact on Military MRO through a watchlist OEM; contract formation depends on congressional action after the November midterms, so any decision window is 60 to 180 days; no GAL counterparty.",
+    "companies": [
+      "Lockheed Martin"
+    ],
+    "confidence": "Likely",
+    "date": "2026-10-22",
+    "headline": "Pentagon and Lockheed Martin announce 10-year F-35 framework: at least 850 US jets, 10 years of modification kits and sustainment, international orders covered; needs congressional approval",
+    "lines": [
+      "Military MRO",
+      "Engineering, training and simulation"
+    ],
+    "priority": "med",
+    "scope": "Global MRO",
+    "source": "Defense News (22 Oct); Investing.com (22 Oct); AFP via Kuwait Times (22 Oct). Pentagon and Lockheed release not read directly. No total value disclosed.",
+    "url": "https://defensenews.com/news/pentagon-congress/2026/10/22/pentagon-lockheed-agree-to-10-year-deal-for-850-f-35-jets",
+    "why": "The framework pairs production (156 a year) with initial spares and 10 years of modification kits and sustainment, and states that foreign customer orders are covered. It cannot become a contract until Congress authorises a multiyear buy and funds it; Defense News notes a stopgap law through 11 Dec bars new multiyear buys. Outlets differ on the headline figure (850 jets over 10 years versus 'at least 850')."
+  },
+  {
+    "action": "No action now. Keep as a reference for an aerial firefighting conversion and sustainment offer.",
+    "basis": "Watch: capability context only; no GAL counterparty, no GCC buyer and no decision window.",
+    "companies": [],
+    "confidence": "Likely",
+    "date": "2026-10-22",
+    "headline": "CAL FIRE adds a fifth state-owned C-130H airtanker at Paso Robles; fleet two short of planned seven",
+    "lines": [
+      "Aerial firefighting",
+      "Military MRO"
+    ],
+    "priority": "watch",
+    "scope": "Capability themes",
+    "source": "AerialFire Magazine (22 Oct). Single outlet; who performs maintenance is not stated.",
+    "url": "https://aerialfiremag.com/2026/10/22/cal-fire-c-130h-airtanker-added-to-paso-robles-air-attack-base/",
+    "why": "California describes itself as the first state to own, operate and maintain C-130H airtankers, each carrying up to 4,000 gallons of retardant. The model converts surplus military transports into government-held firefighting assets, which creates a recurring sustainment need."
+  },
+  {
+    "action": "No action now. Keep as a reference for any GCC wildfire or civil-protection requirement for military-airframe firefighting.",
+    "basis": "Watch: capability context only; no GAL counterparty, no GCC buyer and no decision window.",
+    "companies": [],
+    "confidence": "Likely",
+    "date": "2026-10-22",
+    "headline": "UK announces RAF Chinooks and A400M Atlas to be equipped for wildfire fighting; no equipment, contractor or delivery date stated",
+    "lines": [
+      "Aerial firefighting",
+      "Military MRO"
+    ],
+    "priority": "watch",
+    "scope": "Capability themes",
+    "source": "UK Defence Journal (22 Oct); Forces News (23 Oct). Government announcement reported by two outlets; primary release not read. Airbus A400M firefighting system described as under development and testing.",
+    "url": "https://ukdefencejournal.org.uk/raf-chinooks-and-a400m-to-fight-uk-wildfires-from-the-sky/",
+    "why": "A NATO air force is adding firefighting kits (Chinook bucket, A400M system) to existing military fleets, which is the dual-use model behind an aerial firefighting offer built on military airframes. UK Defence Journal reports no funding figure for the aircraft element and no contractor."
+  },
+  {
+    "action": "Include in the EDGE business-development dialogue on UAS and autonomy sustainment and training. No action now.",
+    "basis": "Watch: shows EDGE in-house autonomy capability and US Navy interoperability; no sustainment scope, GAL role or decision window.",
+    "companies": [
+      "EDGE"
+    ],
+    "confidence": "Certain",
+    "date": "2026-10-21",
+    "headline": "EDGE leads UAE Navy demonstration of sovereign autonomous systems with the US Navy, including counter-drone interceptors",
+    "lines": [
+      "Drones / UAS",
+      "Engineering, training and simulation"
+    ],
+    "priority": "watch",
+    "scope": "UAE / GCC",
+    "source": "Defense Arabia (21 Oct); EDGE media release (21 Oct).",
+    "url": "https://english.defensearabia.com/edge-leads-integration-of-sovereign-autonomous-systems-in-uae-navy-demonstration-with-allied-forces/",
+    "why": "The demonstration was mainly maritime; air-related systems were the VORTEX-E counter-drone interceptor, SKYSHIELD-N and MIRSAD-X sensors. EDGE supplied planning, host facilities and operational assets; the reports do not describe sustainment or training arrangements."
+  },
+  {
+    "action": "Monitor for aviation or sustainment workstreams under the MoU and for any Qatari request for local support partners. No outreach needed now.",
+    "basis": "Watch: regional context and early signal; no GAL role, identified service-line counterparty or decision window under 60 days.",
+    "companies": [],
+    "confidence": "Likely",
+    "date": "2026-10-21",
+    "headline": "Qatar, Türkiye, Pakistan and Indonesia sign 'Badr' defence-industry MoU covering joint production, technology transfer and technical military training",
+    "lines": [
+      "Engineering, training and simulation"
+    ],
+    "priority": "watch",
+    "scope": "UAE / GCC",
+    "source": "Al Jazeera (21 Oct); Geo TV (21 Oct, citing Turkish Defence Ministry statement). No values or timelines published; UAE not mentioned.",
+    "url": "https://www.aljazeera.com/news/2026/10/21/how-qatar-turkiye-pakistan-and-indonesia-are-deepening-defence-ties",
+    "why": "A GCC customer is forming a Türkiye-led supply chain for joint production and training, outside the US and European channels GAL typically works within. Aviation, MRO and sustainment content is not reported."
+  },
+  {
+    "action": "Note the forward-repair and in-theatre 'speed line' concepts as a reference for Gulf tanker and transport support offers. No action now.",
+    "basis": "Watch: context on battle-damage repair, depot capacity and maintainer shortages; no GAL counterparty or decision window.",
+    "companies": [],
+    "confidence": "Likely",
+    "date": "2026-10-21",
+    "headline": "AFMC: at least two KC-135s seriously damaged in the Iran conflict remain in depot; depots short of staff",
+    "lines": [
+      "Military MRO",
+      "Aerial refueling",
+      "Manpower"
+    ],
+    "priority": "watch",
+    "scope": "Global MRO",
+    "source": "Air & Space Forces Magazine (21 Oct), citing AFMC commander Lt. Gen. Linda Hurry. Secondary report of official statements.",
+    "url": "https://airandspaceforces.com/kc-135s-damaged-by-iran-in-depot-afmc-head",
+    "why": "Six KC-135s were damaged in the opening weeks of the conflict, five of them in a missile strike on Prince Sultan Air Base in Saudi Arabia. Forward repair teams made temporary fixes; the worst-hit aircraft needed stateside depot rebuild, and AFMC reports about 8,200 vacant billets, 2,600 of them in the Air Force Sustainment Center."
+  },
+  {
+    "action": "Ask Tawazun and the UAE Air Force whether the industrial arrangements include in-country sustainment or training workshare. Revisit when texts or follow-on contracts are published; IDEX is in January.",
+    "basis": "Medium: relevant to Military MRO and engineering/training on a UAE fleet through a named counterparty (Tawazun, EDGE), but scope is unpublished and no GAL role or decision window under 60 days is identified.",
+    "companies": [
+      "EDGE"
+    ],
+    "confidence": "Likely",
+    "date": "2026-10-20",
+    "headline": "UAE and France exchange Strategic Defence Partnership Framework; Rafale F5 intergovernmental agreement and Tawazun-French DGA industrial arrangements reported during Macron's Abu Dhabi visit (20 Oct)",
+    "lines": [
+      "Military MRO",
+      "Engineering, training and simulation"
+    ],
+    "priority": "med",
+    "scope": "UAE / GCC",
+    "source": "The National (20-21 Oct); Gulf News (20 Oct); Sharjah24 (20 Oct, WAM-style report). Agreement texts not published; terms, quantities and values not reported. Kuwait: eight agreements on 19 Oct per bne IntelliNews (summary only).",
+    "url": "https://gulfnews.com/uae/government/uae-france-strengthen-defence-ties-with-strategic-partnership-framework-exchange-1.500716903",
+    "why": "Gulf News records the framework signed by the UAE Minister of State for Defence Affairs and the French Armed Forces Minister, and a separate defence-industry implementing arrangement exchanged by the Tawazun Council Secretary General and the French Delegate-General for Armaments. The National also lists a Rafale F5 cooperation agreement and industrial cooperation on future combat aviation. Support, MRO and training content is not reported."
+  },
+  {
+    "action": "Watch for expeditionary support and basing requirements in Saudi Arabia and Qatar that could reach regional MRO or logistics providers. No action now.",
+    "basis": "Watch: raises Gulf operating tempo and forward-support demand, but names no GAL counterparty or sustainment procurement.",
+    "companies": [],
+    "confidence": "Likely",
+    "date": "2026-10-20",
+    "headline": "UK adds RAF Typhoons and an A400M to its mission to defend Saudi Arabia against Houthi attacks; Sky Sabre shipped; no offensive strikes",
+    "lines": [
+      "Military MRO",
+      "Aerial refueling"
+    ],
+    "priority": "watch",
+    "scope": "UAE / GCC",
+    "source": "The National (20 Oct); corroborated by ITV News, The Aviationist (20 Oct). UK official statement not read directly.",
+    "url": "https://www.thenationalnews.com/news/uk/2026/10/20/uk-mission-to-defend-saudi-arabia-adds-typhoon-jets/",
+    "why": "The deployment follows a September Voyager tanker deployment and four Typhoons already in Qatar. Houthi strikes on Saudi Arabia have intensified, according to the reports; the Houthis have not been quoted on the deployment in the sources reviewed."
+  },
+  {
+    "action": "No action now. Track whether the supplier and sustainment arrangement are published, as a reference for a C-130-class firefighting conversion and support offer.",
+    "basis": "Watch: capability context only; no GAL counterparty, no GCC buyer and no decision window.",
+    "companies": [],
+    "confidence": "Likely",
+    "date": "2026-10-19",
+    "headline": "Portugal plans C-130 firefighting role from 2027 using two government-bought kits (about EUR 16M)",
+    "lines": [
+      "Aerial firefighting",
+      "Military MRO"
+    ],
+    "priority": "watch",
+    "scope": "Capability themes",
+    "source": "RTP (19 Oct); AerialFire Magazine (23 Oct). Number of aircraft and kit supplier not stated in either report.",
+    "url": "https://aerialfiremag.com/2026/10/23/portugals-air-force-to-introduce-c-130-aircraft-into-firefighting",
+    "why": "A second European air force is converting transport aircraft to firefighting, alongside the UK announcement and CAL FIRE's C-130H fleet. The kits are government-bought, so integration and sustainment of the aircraft sit with the operator."
+  },
+  {
+    "action": "Track the announcement for aviation, UAS or sustainment content and for the identity of the regional partner.",
+    "basis": "Watch: early signal with no stated scope, counterparty or decision window; no direct effect on a GAL service line identified.",
+    "companies": [],
+    "confidence": "Likely",
+    "date": "2026-10-19",
+    "headline": "Qatar defence minister says Doha will announce a defence production hub with a regional partner and US, UK and French involvement 'soon'",
+    "lines": [],
+    "priority": "watch",
+    "scope": "UAE / GCC",
+    "source": "The National (19-20 Oct, citing Reuters report of remarks at Global Security Forum, Doha). Partner, location, scope and timeline not stated; single outlet.",
+    "url": "https://www.thenationalnews.com/business/economy/2026/10/19/qatar-to-announce-defence-production-plant/",
+    "why": "Qatar is moving to localise defence manufacturing after wartime damage. The unnamed regional partner could be a competitor to UAE industry for Gulf localisation work; aviation and MRO scope is not mentioned."
+  },
+  {
+    "action": "No action. Note the system as possible future content in the EDGE-Hanwha programme; revisit if a UAE variant is named.",
+    "basis": "Watch: capability context on a watchlist company with no UAE link, no identifiable counterparty for GAL and no decision window.",
+    "companies": [
+      "Hanwha"
+    ],
+    "confidence": "Likely",
+    "date": "2026-10-15",
+    "headline": "Hanwha Systems reports its Cheongwang laser downed three target drones in a South Korean Army exercise; 30kW vehicle-mounted laser also shown",
+    "lines": [],
+    "priority": "watch",
+    "scope": "Capability themes",
+    "source": "Herald Corp; Defense Arabia (company-announced results, not independently verified)",
+    "url": "https://biz.heraldcorp.com/article/10903851",
+    "why": "Hanwha, EDGE's partner in the 15 September air defense term sheet, demonstrated low-cost laser counter-drone systems on 14 October and is developing a 50kW export vehicle (completion planned 2027). Herald notes that at the 1 October Armed Forces Day event not every target drone was downed. No UAE, maintenance or support element is reported."
+  },
+  {
+    "action": "No action. Note as a possible benchmark for operator valuations and fleet-investment models if GAL pursues a firefighting partnership.",
+    "basis": "Context on firefighting-sector ownership; no counterparty, Gulf link or decision window for GAL, so Watch.",
+    "companies": [],
+    "confidence": "Likely",
+    "date": "2026-10-14",
+    "headline": "Antin Infrastructure Partners takes majority stake in US aerial firefighting and heavy-lift operator HP Helicopters; price undisclosed",
+    "lines": [
+      "Aerial firefighting"
+    ],
+    "priority": "watch",
+    "scope": "Competitors / M&A",
+    "source": "Air Med & Rescue (single outlet; deal value not disclosed; no Gulf link stated)",
+    "url": "https://www.airmedandrescue.com/latest/news/antin-acquires-majority-stake-aerial-firefighting-operator-hp-helicopters",
+    "why": "HP Helicopters is a California-based operator of aerial firefighting, heavy-lift and utility work for government agencies across 10 western US states. Infrastructure-fund ownership of firefighting operators shows investor interest in the sector; the report names no Gulf customers or operations."
+  },
+  {
+    "action": "No action. Track whether Apache sustainment or depot capacity in the region is offered to Gulf operators.",
+    "basis": "Watch: Boeing platform context with no GCC counterparty, no GAL service-line decision and no decision window.",
+    "companies": [
+      "Boeing"
+    ],
+    "confidence": "Likely",
+    "date": "2026-10-14",
+    "headline": "Israel signs for 12 Boeing AH-64E Apache helicopters; deliveries from the early 2030s",
+    "lines": [
+      "Military MRO"
+    ],
+    "priority": "watch",
+    "scope": "Capability themes",
+    "source": "Times of Israel; Ynet (both citing the Israeli Defense Ministry); Defense News (headline only, page not loaded)",
+    "url": "https://www.timesofisrael.com/liveblog_entry/israel-signs-deal-to-buy-12-apache-helicopters-from-uss-boeing/",
+    "why": "Boeing adds a rotary-wing fleet order that will draw on the same Apache sustainment base used by other operators. Outlets differ on value: Ynet notes a NIS 1 billion (about $323M) budget allocation and says a '$1B' headline figure is a currency mislabel; total contract value and support terms are not stated."
+  },
+  {
+    "action": "No action. Note EDGE's export posture when assessing its capacity for domestic sustainment scope.",
+    "basis": "Watch: context on a watchlist company with no identifiable service-line impact and no decision window.",
+    "companies": [
+      "EDGE"
+    ],
+    "confidence": "Likely",
+    "date": "2026-10-13",
+    "headline": "EDGE, UAE MoD, Brazilian Army and IMBEL sign letter of intent on defence industrial cooperation",
+    "lines": [],
+    "priority": "watch",
+    "scope": "UAE / GCC",
+    "source": "Defense Arabia (EDGE release); also reported by Quwa. EDGE media centre dates the release 13 Oct.",
+    "url": "https://english.defensearabia.com/edge-uae-ministry-of-defence-brazilian-army-and-imbel-strengthen-strategic-defence-cooperation/",
+    "why": "The LoI covers land force modernisation, technology transfer and future joint programmes, with EDGE committing to an industrial presence in Brazil. No aviation, MRO, sustainment or training element is reported."
+  },
+  {
+    "action": "No action now. Note a possible new competitor or teaming candidate in military MRO; check whether Marshall pursues Gulf work.",
+    "basis": "Competitor ownership change in military MRO with no GAL counterparty or decision window and no stated Gulf link, so Watch.",
+    "companies": [],
+    "confidence": "Likely",
+    "date": "2026-10-12",
+    "headline": "AURELIUS completes acquisition of Marshall Aerospace, a UK military MRO and C-130J support provider; price undisclosed",
+    "lines": [
+      "Military MRO",
+      "Engineering, training and simulation"
+    ],
+    "priority": "watch",
+    "scope": "Competitors / M&A",
+    "source": "AviTrader; UK Defence Journal (cites company statement, completion 8 Oct). Price not disclosed.",
+    "url": "https://avitrader.com/2026/10/12/aurelius-completes-marshall-aerospace-acquisition",
+    "why": "Marshall now operates as an independent, private-equity-owned military MRO and engineering company with C-130J support work, including a multi-year Turkish MoD contract for 12 C-130J aircraft. Neither source mentions the UAE or wider Gulf."
+  },
+  {
+    "action": "No action now. Note the bundled-support model when approaching EDGE on UAS sustainment.",
+    "basis": "Watchlist company and UAS-related support, but the customer is non-GCC, no GAL counterparty is identified and no decision window falls within 60 days, so Watch.",
+    "companies": [
+      "EDGE"
+    ],
+    "confidence": "Likely",
+    "date": "2026-10-09",
+    "headline": "EDGE signs Morocco contract to integrate precision weapons on Royal Moroccan Air Force UCAVs, including long-term support, and an MoU on local small-arms and aero-engine production",
+    "lines": [
+      "Drones / UAS",
+      "Engineering, training and simulation"
+    ],
+    "priority": "watch",
+    "scope": "Capability themes",
+    "source": "Defense Arabia (9 Oct) and Gulf News (10 Oct); company-sourced, no value disclosed, no WAM or EDGE release read",
+    "url": "https://english.defensearabia.com/edge-strengthens-moroccos-air-power-with-precision-weapons-for-its-unmanned-combat-fleet/",
+    "why": "EDGE is selling integration work and long-term support with its munitions to an export customer. The pattern shows EDGE bundling sustainment into UAS-related offers, which overlaps GAL's UAS sustainment priority."
+  },
+  {
+    "action": "No action now. Check the UK MoD or MARSS for support and training terms before treating this as a precedent for UAE counter-UAS sustainment.",
+    "basis": "Watch: counter-UAS in a neighbouring state; no GAL counterparty or decision window. Confidence reflects the company's own regulatory filing on conditionality; support terms remain unconfirmed.",
+    "companies": [],
+    "confidence": "Certain",
+    "date": "2026-10-09",
+    "headline": "Kuwait nationwide counter-drone contract with UK-based MARSS (EOS), GBP 370M: EOS confirms it is conditional (26 Oct)",
+    "lines": [
+      "Drones / UAS",
+      "Engineering, training and simulation"
+    ],
+    "priority": "watch",
+    "scope": "UAE / GCC",
+    "source": "UK Government (MoD release, 9 Oct); EOS ASX quarterly report (26 Oct); Defense Arabia; Unmanned Airspace. Sources differ on support terms: Defense Arabia reports a multi-year ILS programme and months of operator training; the UK release, Unmanned Airspace and the EOS report mention neither for this contract.",
+    "url": "https://www.gov.uk/government/news/100-new-uk-jobs-created-as-kuwait-buys-british-made-ai-enabled-air-defence-systems",
+    "why": "EOS states the contract is conditional: a GBP 74M advance payment guarantee, a matching customer advance payment and export licences within two months of receiving documentation. It is not in EOS's order book, and EOS says there is no certainty the conditions will be met. The ILS and training elements reported by Defense Arabia remain unconfirmed; EOS cites a separate GBP 8M counter-drone command and training centre order from an existing Middle East customer, which it does not link to Kuwait."
+  },
+  {
+    "action": "No action. Note as regional MRO capacity; check whether military work is targeted.",
+    "basis": "Context on regional MRO capacity with no GAL service-line counterparty or decision window, so Watch.",
+    "companies": [],
+    "confidence": "Likely",
+    "date": "2026-10-08",
+    "headline": "GMF AeroAsia signs 20-year concession to establish an MRO facility at Muscat Airport, Oman",
+    "lines": [],
+    "priority": "watch",
+    "scope": "Global MRO",
+    "source": "AviTrader (single source). Customer segment not stated; treat as commercial unless confirmed.",
+    "url": "https://avitrader.com/2026/10/08/gmf-to-establish-muscat-airport-mro-facility/",
+    "why": "The Oman CAA owns the hangar and grants the concession; GMF will develop it in phases. New regional MRO capacity in the Gulf, with investment and customers undisclosed."
+  },
+  {
+    "action": "No action now. Use as a benchmark when scoping any rotary training or simulation teaming.",
+    "basis": "Watchlist OEM and relevant service line, but the customer is outside the GCC and no GAL counterparty or decision window is identified, so Watch.",
+    "companies": [
+      "Lockheed Martin"
+    ],
+    "confidence": "Likely",
+    "date": "2026-10-08",
+    "headline": "Lockheed Martin signs Philippine Air Force deal for S-70i Black Hawk full flight simulator, virtual maintenance trainer and sustainment support through 2032",
+    "lines": [
+      "Engineering, training and simulation"
+    ],
+    "priority": "watch",
+    "scope": "Capability themes",
+    "source": "Defense Arabia (8 Oct); listed on Vertical (press release). Direct commercial sale; value not disclosed.",
+    "url": "https://english.defensearabia.com/lockheed-martin-to-deliver-s-70-black-hawk-helicopter-training-devices-and-services-to-the-philippine-air-force/",
+    "why": "Reference case for an OEM bundling simulators, maintainer training and spares support into one helicopter package, a model Lockheed Martin (Sikorsky) could offer to Gulf operators."
+  },
+  {
+    "action": "Monitor for deployment details and any host-nation support or sustainment requirements.",
+    "basis": "Regional context with no identified counterparty or service-line decision, so Watch.",
+    "companies": [],
+    "confidence": "Likely",
+    "date": "2026-10-08",
+    "headline": "Turkey weighs air defense, electronic warfare and technical support for Saudi Arabia under the Mecca defense pact; says it will not take an offensive role",
+    "lines": [],
+    "priority": "watch",
+    "scope": "UAE / GCC",
+    "source": "Defense News (8 Oct); based on statements by Turkey's foreign minister. Parliament has not ratified the pact.",
+    "url": "https://www.defensenews.com/global/mideast-africa/2026/10/08/turkeys-foreign-minister-says-ankara-weighing-saudi-defense-support-rules-out-offensive-role/",
+    "why": "Collective-defense deployments into Saudi Arabia could raise operating tempo and support demand in the region, alongside the Houthi offensive already tracked."
+  },
+  {
+    "action": "Ask EDGE and the UAE Air Force whether platform integration, stockpile handling or training support will be procured locally. Confirm against the official notice before citing externally.",
+    "basis": "Possible sale, secondary reports only; support work for UAE platforms possible but unconfirmed.",
+    "companies": [],
+    "confidence": "Likely",
+    "date": "2026-10-05",
+    "headline": "US approves possible $1.04B sale of up to 10,000 APKWS-II guidance sections to the UAE",
+    "lines": [
+      "Drones / UAS",
+      "Military MRO"
+    ],
+    "priority": "watch",
+    "scope": "UAE / GCC",
+    "source": "AFP via 24 News HD; Türkiye Today; The Defense Post (6 Oct); Breaking Defense headline (Oct, page not loaded) also lists Middle East guidance-kit sales. State Department notice could not be retrieved. Possible sale, not a contract.",
+    "url": "https://www.turkiyetoday.com/world/us-approves-227-billion-in-arms-sales-to-egypt-kuwait-and-uae-3229701",
+    "why": "The kits convert unguided rockets into low-cost counter-drone munitions, following Iranian drone and missile attacks on Gulf states. The Defense Post lists warheads, rocket motors, fuzes, training and technical support in the package; air-launched use implies integration and support work on UAE fixed- and rotary-wing platforms."
+  },
+  {
+    "action": "Monitor only. Check for exercise support or readiness requirements once more detail is published.",
+    "basis": "Relevance to GAL unconfirmed; no aviation or support detail published.",
+    "companies": [],
+    "confidence": "Guessing",
+    "date": "2026-10-04",
+    "headline": "UAE MoD launches joint military exercise Falcon Strike 3 in Abu Dhabi",
+    "lines": [
+      "Facility management",
+      "Manpower"
+    ],
+    "priority": "watch",
+    "scope": "UAE / GCC",
+    "source": "Defense Arabia (participants and aviation elements not disclosed)",
+    "url": "https://english.defensearabia.com/mod-launches-joint-military-exercise-falcon-strike-3/",
+    "why": "Stated aim is field experience, combat efficiency and doctrine development. The announcement gives no detail on aviation, participants or support requirements, so direct relevance is unconfirmed."
+  },
+  {
+    "action": "No action. Closing-day check complete; track EDGE's export support model.",
+    "basis": "Show outcome recorded: EDGE deals are Morocco-specific and GAL is not named, so Watch.",
+    "companies": [
+      "EDGE",
+      "Lockheed Martin"
+    ],
+    "confidence": "Likely",
+    "date": "2026-10-03",
+    "headline": "Marrakech Airshow (7-10 Oct): EDGE signs Morocco weapons-integration contract and a production MoU; no EDGE or Tawazun sustainment agreement reported; Lockheed Martin also exhibited",
+    "lines": [
+      "Military MRO"
+    ],
+    "priority": "watch",
+    "scope": "UAE / GCC",
+    "source": "EDGE press release via Defense Arabia (7 Oct); Defense Arabia (9 Oct) and Gulf News (10 Oct) on signed deals. GAL and AMMROC not mentioned.",
+    "url": "https://english.defensearabia.com/edge-returns-to-marrakech-air-show-2026-with-sensing-counter-drone-and-precision-capability/",
+    "why": "EDGE's show release stresses long-term support, local production and over 80% UAE-made content. The signed outputs were a Morocco munitions-integration contract (with long-term support) and an MoU on local small arms and aero-engine production; no UAE MRO or sustainment contract was announced."
+  },
+  {
+    "action": "Monitor for task force outputs that set data standards for military maintenance. No action now.",
+    "basis": "Official source on a UAE initiative touching sustainment analytics, but no procurement, counterparty or decision window, so Watch.",
+    "companies": [],
+    "confidence": "Certain",
+    "date": "2026-10-03",
+    "headline": "CENTCOM details Talon Synapse, the joint US-UAE military AI task force, with equipment-failure prediction and logistics among its focus areas",
+    "lines": [
+      "Engineering, training and simulation"
+    ],
+    "priority": "watch",
+    "scope": "UAE / GCC",
+    "source": "CENTCOM Citadel feature (3 Oct); task force announced 28 July (Defense News). About 20 US and UAE personnel; no launch date confirmed.",
+    "url": "https://centcomcitadel.com/en_GB/articles/ssc/features/2026/10/03/feature-01/Talon-Synapse-The-future-of-AI-cooperation",
+    "why": "Predictive maintenance and logistics are named focus areas, which could shape future UAE data and condition-monitoring requirements for fleet sustainment."
+  },
+  {
+    "action": "Monitor. Raise integration and test support with EDGE in the existing business development dialogue.",
+    "basis": "Watchlist customer and partner milestone; possible integration work, no customer named.",
+    "companies": [
+      "EDGE"
+    ],
+    "confidence": "Likely",
+    "date": "2026-10-02",
+    "headline": "EDGE's LAHAB completes development of UAE-made MK 82 Penetrator aircraft munition; MK 83 variant in advanced development",
+    "lines": [
+      "Engineering, training and simulation"
+    ],
+    "priority": "watch",
+    "scope": "UAE / GCC",
+    "source": "Defense Arabia (EDGE statement; single outlet, no customer named)",
+    "url": "https://english.defensearabia.com/edge-completes-development-of-the-mk-82-penetrator-aircraft-munition/",
+    "why": "Another step in EDGE's sovereign munitions push. The weapon is described as compatible with NATO-configuration fighters, so it may bring aircraft integration and certification work to in-country providers."
+  },
+  {
+    "action": "Use as a benchmark when scoping GAL's engine-related MRO offers. Retrieve the full article before citing externally.",
+    "basis": "Pricing and structure benchmark for engine work; headline-level source.",
+    "companies": [
+      "GE Aerospace"
+    ],
+    "confidence": "Likely",
+    "date": "2026-10-02",
+    "headline": "GE wins $113M Navy helicopter engine sustainment contract",
+    "lines": [
+      "Military MRO"
+    ],
+    "priority": "watch",
+    "scope": "Global MRO",
+    "source": "ClearanceJobs (headline only; article could not be retrieved)",
+    "url": "https://news.clearancejobs.com/2026/10/02/ge-wins-113m-navy-helicopter-engine-sustainment-contract/",
+    "why": "OEM-held engine sustainment remains a common contract structure, which limits independent MRO scope on engine work."
+  },
+  {
+    "action": "Note the repair-and-return model as a reference for any UAE air defense sustainment request. No GAL action until the UAE issues a comparable requirement; check whether the Kuwait package leaves local maintenance or training scope.",
+    "basis": "Relevant to the military MRO and training lines and to a watchlist company; no identifiable GAL counterparty and indirect impact, so Medium.",
+    "companies": [
+      "Lockheed Martin"
+    ],
+    "confidence": "Certain",
+    "date": "2026-10-02",
+    "headline": "US approves possible $400M Patriot missile repair-and-return sale to Kuwait",
+    "lines": [
+      "Military MRO",
+      "Engineering, training and simulation"
+    ],
+    "priority": "med",
+    "scope": "UAE / GCC",
+    "source": "US State Department (Bureau of Political-Military Affairs notice, 2 Oct 2026); Army Recognition (5 Oct) and Global Defense Corp (7 Oct) report the same value. Possible sale, not a signed contract.",
+    "url": "https://www.state.gov/releases/bureau-of-political-military-affairs/2026/10/kuwait-patriot-missile-repair-and-return/",
+    "why": "The package covers repair and return of Patriot missiles, maintenance services, training and two years of US contractor support in Kuwait. Principal contractors are Lockheed Martin, RTX, Leidos and KBR. It shows Gulf states funding in-region sustainment after Iranian attacks on Kuwait in 2026."
+  },
+  {
+    "action": "Confirm GAL's sanctions and counterparty screening is current. Prepare a short factual position in case partners ask. No external comment unless asked.",
+    "basis": "Sensitive item (allegation naming UAE locations); possible partner screening questions, 60 to 180 day horizon. Should be reviewed before wider circulation.",
+    "companies": [],
+    "confidence": "Likely",
+    "date": "2026-09-30",
+    "headline": "Investigation reports UAE use of sanctioned Russian carrier Aviacon Zitotrans for flights to Africa",
+    "hold": true,
+    "lines": [
+      "Military MRO"
+    ],
+    "priority": "med",
+    "scope": "UAE / GCC",
+    "source": "Defense News investigation (UAE authorities did not respond to requests for comment; allegations unconfirmed)",
+    "url": "https://www.defensenews.com/global/mideast-africa/2026/09/30/uae-turns-to-russian-shadow-airline-for-missions-in-africa-investigation/",
+    "why": "The report names UAE locations, including Sweihan Air Base, and cites over 100 flights between mid-2025 and September 2026. It may raise counterparty-screening questions from Western OEMs and partners working with UAE aviation entities."
+  },
+  {
+    "action": "Update the AAR competitor profile. Watch for AAR moves into Gulf government or military MRO. No teaming action now.",
+    "basis": "Watchlist competitor; commercial deal with limited effect on GAL's military lines.",
+    "companies": [
+      "AAR"
+    ],
+    "confidence": "Likely",
+    "date": "2026-09-29",
+    "headline": "AAR to acquire 65% of MRO Holdings, a commercial heavy-maintenance provider, at about $4B implied enterprise value",
+    "lines": [
+      "Military MRO"
+    ],
+    "priority": "watch",
+    "scope": "Competitors / M&A",
+    "source": "AviTrader (29 Sept) and GuruFocus (28 Sept). Both agree on the 65% stake; GuruFocus cites $1.8B for the stake, AviTrader $4B enterprise value. Confirm against AAR's release.",
+    "url": "https://avitrader.com/2026/09/29/aar-to-buy-controlling-stake-in-mro-holdings/",
+    "why": "MRO Holdings is a commercial airframe heavy-maintenance business, about 90% US revenue, so this is not a military MRO deal. AAR says it will expand wide-body work and pursue European and Middle Eastern fleet services, which makes AAR a larger regional competitor on commercial work. Direct impact on GAL's military lines is limited."
+  },
+  {
+    "action": "Monitor only. Revisit if a GCC F-15 sustainment requirement appears.",
+    "basis": "US programme news with no UAE link identified; context only.",
+    "companies": [
+      "Boeing"
+    ],
+    "confidence": "Certain",
+    "date": "2026-09-29",
+    "headline": "USAF awards Boeing $2.38B for 22 more F-15EX fighters (Lot 7)",
+    "lines": [
+      "Military MRO"
+    ],
+    "priority": "watch",
+    "scope": "Global MRO",
+    "source": "The Aviationist",
+    "url": "https://theaviationist.com/2026/09/30/22-more-f-15ex-fighters-lot-7",
+    "why": "Contracted F-15EX total reaches 120, with funds obligated ahead of fiscal year end. Indicates long-run F-15 family sustainment demand globally. No direct UAE link identified."
+  },
+  {
+    "action": "Note as a platform option in firefighting partnership discussions. No action until certification and customer interest are visible.",
+    "basis": "Platform option for the firefighting line; unproven aircraft, no Gulf link.",
+    "companies": [
+      "Game Aerospace"
+    ],
+    "confidence": "Likely",
+    "date": "2026-09-23",
+    "headline": "Game Aerospace GB2 clean-sheet single-engine airtanker completes first flight",
+    "lines": [
+      "Aerial firefighting"
+    ],
+    "priority": "watch",
+    "scope": "Capability themes",
+    "source": "AerialFire Magazine; Aviation Week also lists it (headline only, paywalled)",
+    "url": "https://aerialfiremag.com/2026/09/24/game-aerospace-gb2-completes-first-flight/",
+    "why": "A new 1,200-gallon initial-attack airtanker, built around a PT6A-67F, is heading to FAA Part 23 certification and production. It is a possible platform option for firefighting partners, but it is unproven and has no Gulf link yet."
+  },
+  {
+    "action": "Monitor. Consider the parts-supply theme when scoping GAL's MRO offers to UAE commands with aging fleets.",
+    "basis": "Market context on parts supply; no counterparty or decision window.",
+    "companies": [],
+    "confidence": "Likely",
+    "date": "2026-09-18",
+    "headline": "USAF Materiel Command cites a $14B supply gap and a shift away from single-source parts suppliers",
+    "lines": [
+      "Military MRO"
+    ],
+    "priority": "watch",
+    "scope": "Global MRO",
+    "source": "Defense News",
+    "url": "https://www.defensenews.com/news/your-military/2026/09/18/us-air-force-has-a-14-billion-supply-hole-service-officials-say/",
+    "why": "About 53% of the fleet is over 30 years old and the supply-driven aircraft down rate is up 87% in seven years. Multi-source parts policy points to growing demand for repair, parts and supply-chain capacity, which is a theme for GAL's own spares and repair planning."
+  },
+  {
+    "action": "Open a dialogue with EDGE on sustainment, training and site support for the JV. Track for a definitive agreement.",
+    "basis": "Potential in-country support and training demand with a named UAE counterparty; the JV is not yet established and sustainment is not addressed in the term sheet, so 60 to 180 days at best, Medium.",
+    "companies": [
+      "EDGE",
+      "Hanwha"
+    ],
+    "confidence": "Likely",
+    "date": "2026-09-16",
+    "headline": "EDGE and Hanwha sign term sheet for integrated air defense network with UAE joint venture",
+    "lines": [
+      "Engineering, training and simulation",
+      "Military MRO"
+    ],
+    "priority": "med",
+    "scope": "UAE / GCC",
+    "source": "Army Recognition; Korea Times (17 Sept) and Evertiq (14 Oct) describe the same term sheet. Term sheet signed in Abu Dhabi on 15 Sept per Korea Times; binding status not stated.",
+    "url": "https://www.armyrecognition.com/news/army-news/2026/uae-hanwha-edge-air-defense-deal-l-sam-msam-chunmoo",
+    "why": "The term sheet covers L-SAM, additional M-SAM batteries and Chunmoo launchers, with technology transfer and phased localisation. Korea Times reports that no joint venture exists yet: the parties plan to pursue one, subject to government approvals. Neither Korean outlet mentions sustainment or training. A new system type (L-SAM) would need in-country support, training and facilities if it proceeds."
+  },
+  {
+    "action": "Monitor only. Revisit if a Gulf operator shows interest in unmanned tanking.",
+    "basis": "No Gulf customer; context only for the refueling line.",
+    "companies": [
+      "Boeing"
+    ],
+    "confidence": "Likely",
+    "date": "2026-09-15",
+    "headline": "US Navy and Boeing sign first MQ-25A Stingray production contract ($562M); initial operating capability now 2029",
+    "lines": [
+      "Aerial refueling",
+      "Drones / UAS"
+    ],
+    "priority": "watch",
+    "scope": "Capability themes",
+    "source": "Defense News",
+    "url": "https://www.defensenews.com/industry/techwatch/2026/09/15/us-navy-boeing-ink-first-mq-25a-stingray-production-contract/",
+    "why": "The first operational unmanned tanker is four years behind its original plan. No Gulf customer, so the near-term relevance to GAL's refueling line is low."
+  },
+  {
+    "id": "20260907-bahrain-airshow-2028",
+    "date": "2026-09-07",
+    "headline": "Bahrain International Airshow (planned 18-20 Nov 2026) postponed to 15-17 Nov 2028",
+    "priority": "watch",
+    "scope": "UAE / GCC",
+    "lines": [
+      "Military MRO",
+      "Engineering, training and simulation"
+    ],
+    "companies": [],
+    "confidence": "Likely",
+    "source": "Single trade report (Air Force Technology) seen in search results; organiser notice not read. One outlet's headline says cancelled while its text says postponed; the 2028 dates are as reported.",
+    "url": "https://www.airforce-technology.com/news/bahrain-international-airshow-2028/",
+    "why": "Removes a November 2026 Gulf meeting venue; some business may move to Dubai or Saudi shows.",
+    "action": "No action now.",
+    "basis": "Calendar change only, no counterparty or GAL service-line decision."
+  },
+  {
+    "action": "Confirm with Embraer the status of the GAL MoU and its scope against the Generation 5 role. Assess a subcontract or teaming position with Generation 5 for military MRO and training.",
+    "basis": "Names GAL as an MoU partner and affects the military MRO and training lines with an identifiable counterparty (Embraer); the UAE order sets the sustainment decision window now, so High.",
+    "companies": [
+      "Embraer",
+      "AMMROC"
+    ],
+    "confidence": "Likely",
+    "date": "2025-11-17",
+    "headline": "Embraer C-390: UAE orders 10 (options for 10 more); Embraer names Generation 5 Holding exclusive UAE MRO and training partner, alongside its Nov 2025 MoUs with AMMROC and GAL",
+    "lines": [
+      "Military MRO",
+      "Engineering, training and simulation"
+    ],
+    "priority": "high",
+    "scope": "Capability themes",
+    "source": "Breaking Defense (Nov 2025); Breaking Defense, The Defense Post (5 May 2026) and AviationPros/Embraer release (6 May 2026) for the Tawazun order. None of the May reports mentions GAL or AMMROC. Order value and delivery dates not stated.",
+    "url": "https://breakingdefense.com/2026/05/uae-to-get-10-c-390-aircraft-up-to-10-more-in-the-future/",
+    "why": "Tawazun contracted 10 C-390s (options for 10 more) in May 2026, and Embraer made Generation 5 Holding its exclusive strategic partner to develop MRO, after-sales support and technician and aircrew training in the UAE. GAL's Nov 2025 MoU covers sustainment and training; how it relates to the Generation 5 arrangement is not stated in public reporting."
+  }
 ]
