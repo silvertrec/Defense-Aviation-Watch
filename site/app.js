@@ -331,6 +331,9 @@ function renderQuality() {
   stat("Rated Watch", watchShare + "%", watchShare > 90 ? "Very high: ratings may be too cautious" : "of live items", watchShare > 90 ? "warn" : "");
   var r = st.runs[0], age = r ? daysFrom(r.date, today()) : null;
   stat("Last refresh run", r ? fmt(r.date) : "No run log", r ? (age === 0 ? "today" : age + (age === 1 ? " day ago" : " days ago")) + ", " + r.items_added + " added" : "", age !== null && age > 4 ? "warn" : "");
+  var depthLow = r && r.queries !== undefined && r.queries < 30;
+  stat("Search depth, last run", r && r.queries !== undefined ? r.queries + " queries" : "Not recorded",
+    r && r.queries !== undefined ? (r.primary_documents_read !== undefined ? r.primary_documents_read + " primary documents read" : "primary documents not recorded") + (depthLow ? ". Below the 30-query minimum" : "") : "Older runs did not log this", depthLow ? "warn" : "");
   var last10 = st.runs.slice(0, 10), sum10 = last10.reduce(function (s, x) { return s + (x.items_added || 0); }, 0);
   stat("Items added, last 10 runs", last10.length ? String(sum10) : "n/a", last10.length ? "over " + last10.length + " runs" : "");
   var bd = (r && r.blocked_domains) || [];

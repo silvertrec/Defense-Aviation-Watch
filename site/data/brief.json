@@ -1,24 +1,4 @@
 {
-  "decisions": [
-    {
-      "by": "2026-11-13",
-      "lead": "Commercial Strategy",
-      "topic": "Embraer C-390 (overdue)",
-      "what": "Confirm GAL's MoU status and scope with Embraer, and open contact with Generation 5 Holding."
-    },
-    {
-      "by": "2026-11-20",
-      "lead": "Commercial Strategy",
-      "topic": "UAS sustainment and training",
-      "what": "Confirm GAL's UAS positioning and request meetings with Calidus and EDGE."
-    },
-    {
-      "by": "2026-11-20",
-      "lead": "Commercial Strategy",
-      "topic": "EDGE-Hanwha air defense",
-      "what": "Open dialogue with EDGE business development on where in-country support and training would sit."
-    }
-  ],
   "priorities": [
     {
       "confidence": "Likely",

@@ -78,6 +78,7 @@ export function validateBrief(b, E, W) {
     if (!isStr(b.headline)) E.push("brief.headline: must be a non-empty string");
     else if (b.headline.trim().split(/\s+/).length > 30) W.push("brief.headline: longer than 30 words; keep the bottom line short");
   } else W.push("brief.headline: missing (bottom line)");
+  if (b.decisions !== undefined) W.push("brief.decisions: legacy key; decisions now live only in decisions.json (delete it from brief.json)");
   if (b.changes !== undefined && (!Array.isArray(b.changes) || b.changes.length > 6)) E.push("brief.changes: array of at most 6");
   if (!Array.isArray(b.priorities) || b.priorities.length > 4) E.push("brief.priorities: array of at most 4");
   else b.priorities.forEach((p, n) => ["name", "why", "now", "next"].forEach(k => { if (!isStr(p[k])) E.push(`brief.priorities[${n}]: missing ${k}`); }));
@@ -88,12 +89,30 @@ export function validateBrief(b, E, W) {
   }
 }
 
-export function validateRuns(runs, E) {
+// Minimum-effort rule (agent/AGENT.md section 2a). Applies to runs dated on or after EFFORT_RULE_FROM.
+export const EFFORT_RULE_FROM = "2026-11-23";
+export const MIN_QUERIES = 30;
+export const MIN_PRIMARY_DOCS = 3;
+
+export function validateRuns(runs, E, W) {
   if (!Array.isArray(runs)) { E.push("runs.json: must be an array"); return; }
   if (runs.length > 90) E.push("runs.json: more than 90 entries");
   runs.forEach((r, n) => {
-    if (!validDate((r && r.date) || "")) E.push(`runs[${n}]: invalid date`);
-    if (!Number.isInteger(r && r.items_added)) E.push(`runs[${n}]: items_added must be an integer`);
+    const at = `runs[${n}] (${r && r.date})`;
+    if (!validDate((r && r.date) || "")) { E.push(`runs[${n}]: invalid date`); return; }
+    if (!Number.isInteger(r.items_added)) E.push(`${at}: items_added must be an integer`);
+    ["queries", "items_evaluated", "primary_documents_read"].forEach(k => {
+      if (r[k] !== undefined && !(Number.isInteger(r[k]) && r[k] >= 0)) E.push(`${at}: ${k} must be a non-negative integer`);
+    });
+    ["primary_sources_checked", "blocked_domains"].forEach(k => {
+      if (r[k] !== undefined && !Array.isArray(r[k])) E.push(`${at}: ${k} must be an array`);
+    });
+    if (W && r.date >= EFFORT_RULE_FROM) {
+      if (r.queries === undefined) W.push(`${at}: queries not recorded`);
+      else if (r.queries < MIN_QUERIES) W.push(`${at}: only ${r.queries} queries (minimum ${MIN_QUERIES}); a "nothing new" result is weak evidence`);
+      if (r.primary_documents_read === undefined) W.push(`${at}: primary_documents_read not recorded`);
+      else if (r.primary_documents_read < MIN_PRIMARY_DOCS) W.push(`${at}: only ${r.primary_documents_read} primary documents read (minimum ${MIN_PRIMARY_DOCS})`);
+    }
   });
 }
 
@@ -111,7 +130,7 @@ export function validateAll(d) {
   const ids = validateItems(d.items, E, W);
   validateDecisions(d.decisions, ids, E, W);
   validateBrief(d.brief, E, W);
-  validateRuns(d.runs, E);
+  validateRuns(d.runs, E, W);
   validateWatchlist(d.watchlist, E);
   return { errors: E, warnings: W };
 }

@@ -22,6 +22,17 @@ Focus order: UAE and GCC first, then global MRO, competitor and M&A moves, then 
 6. Only edit files in `site/data/`. Never edit code, this file, or the workflow files.
 7. A human closes decisions. You never set a decision to `done` or `dropped`.
 
+## 2a. Minimum effort (a run that does less has failed)
+
+"Nothing new" is a conclusion you earn, not a default. Do not write it, and do not write the brief, until you have done all of the following:
+
+- **At least 30 distinct searches or fetches in total.** That means at least 2 queries for each of the eight service lines (16), at least 1 for each of the four scopes (4), and at least 1 for every company in `watchlist.json`.
+- **At least 3 primary documents actually opened** (an official notice, a company or government release, a filing). A search-result snippet does not count. If fewer than 3 are reachable because sites are blocked, say so in the run `note`.
+- **Every primary source in Pass 1 attempted.** A blocked one still counts as attempted, but must be listed in `blocked_domains`.
+- **Never stop early.** If a query returns only old or duplicate material, rephrase it (different keywords, a named programme, a date range) and try again before moving on.
+
+Record the real numbers in the run log: `queries` (the count of searches plus fetches you made), `primary_documents_read` (documents you opened), and `items_evaluated` (candidate items you considered, whether or not you added them). Do not round up or estimate. The validator and the dashboard publish these numbers, and a low count shows as a warning.
+
 ## 3. Run procedure (do the passes in order)
 
 **Pass 0: load state.** Read `site/data/items.json`, `brief.json`, `decisions.json`, `watchlist.json`, `runs.json`. Note today's date in Gulf Standard Time (UTC+4) and the date of the previous run.
@@ -48,7 +59,7 @@ If a host cannot be reached (for example `ENOTFOUND`, which means it is outside 
 
 **Pass 6: brief.** Rewrite `brief.json` (schema below). Write the `headline` last, after everything else.
 
-**Pass 7: run log.** Prepend an entry to `runs.json` (newest first, keep at most 90 entries).
+**Pass 7: run log.** Check your counts against section 2a first. If you are below the minimum and could still search more, go back and do it. Then prepend an entry to `runs.json` (newest first, keep at most 90 entries) with the real numbers.
 
 **Pass 8: validate, commit, push.**
 - Run `node tools/validate.mjs`. If node is not available, parse each JSON file with python3. Fix any error before committing.
@@ -118,7 +129,9 @@ Calibration check before saving: if more than 90% of all live items are `watch`,
 ```
 Always update `refreshed`, even when nothing was added, so the dashboard's data-link lamp stays green.
 
-**runs.json**: newest first: `{date, items_added, items_evaluated, queries, primary_sources_checked[], blocked_domains[], note}`.
+**runs.json**: newest first: `{date, items_added, items_evaluated, queries, primary_documents_read, primary_sources_checked[], blocked_domains[], note}`. `queries`, `items_evaluated` and `primary_documents_read` are integers you counted, not estimates.
+
+**Legacy field:** `brief.json` must not contain a `decisions` key. Decisions live only in `decisions.json`. If you find the old key in `brief.json`, delete it.
 
 ## 7. Writing standards
 
