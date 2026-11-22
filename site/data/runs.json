@@ -2,6 +2,43 @@
   {
     "date": "2026-11-22",
     "items_added": 0,
+    "items_evaluated": 14,
+    "queries": 50,
+    "primary_documents_read": 0,
+    "primary_sources_checked": [
+      "DSCA major arms sales",
+      "DoD contract announcements",
+      "EDGE news",
+      "Tawazun Council",
+      "UK MoD / gov.uk",
+      "SEC EDGAR (AAR)",
+      "WAM",
+      "AAR press release",
+      "Leonardo press page",
+      "Business Wire (Amentum)",
+      "GA-ASI press page",
+      "ASDNews (Babcock)"
+    ],
+    "blocked_domains": [
+      "www.dsca.mil",
+      "www.war.gov",
+      "www.defense.gov",
+      "www.edgegroup.ae",
+      "www.tawazun.ae",
+      "www.gov.uk",
+      "www.sec.gov",
+      "www.wam.ae",
+      "www.aarcorp.com",
+      "www.leonardo.com",
+      "www.businesswire.com",
+      "www.ga.com",
+      "asdnews.com"
+    ],
+    "note": "Second run of the day (earlier run at 16:00 was thin). 50 searches and fetches covering all 8 service lines (2+ each), 4 scopes and all 19 watchlist names. Every attempted primary-source fetch failed with ENOTFOUND, so 0 primary documents were read (below the minimum of 3 because of network limits). No item met the evidence bar for high or med. Proposed watchlist names (Tawazun, Generation 5, Airbus, Leonardo, Babcock, Amentum, KBR, CAE) produced no new signal relevant to GAL; Babcock French Red Air award (3 Nov) noted as competitor context only."
+  },
+  {
+    "date": "2026-11-22",
+    "items_added": 0,
     "items_evaluated": 0,
     "queries": 8,
     "primary_sources_checked": [
