@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-11-22",
+    "items_added": 0,
+    "items_evaluated": 0,
+    "queries": 8,
+    "primary_sources_checked": [
+      "Federal Register DSCA notices (via search snippets only)"
+    ],
+    "blocked_domains": [
+      "www.defense.gov",
+      "www.wam.ae"
+    ],
+    "note": "No qualifying new items. Coverage thin; search snippets only, no primary documents opened. Proposed watchlist names produced no signal this run."
+  },
+  {
     "date": "2026-11-20",
     "items_added": 0,
     "note": "Backfilled from commit log"
