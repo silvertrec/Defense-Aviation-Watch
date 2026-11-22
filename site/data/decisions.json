@@ -1,0 +1,45 @@
+[
+  {
+    "id": "dec-embraer-c390-gal-position",
+    "topic": "Embraer C-390",
+    "what": "Confirm GAL's MoU status and scope with Embraer, and open contact with Generation 5 Holding.",
+    "owner": "Commercial Strategy",
+    "due": "2026-11-13",
+    "status": "open",
+    "opened": null,
+    "closed": null,
+    "note": "",
+    "items": [
+      "20251117-embraer-c-390-uae-orders-10-options-for-10-more-emb",
+      "20261102-greece-orders-three-embraer-kc-390-millennium-aircr"
+    ]
+  },
+  {
+    "id": "dec-uas-positioning",
+    "topic": "UAS sustainment and training",
+    "what": "Confirm GAL's UAS positioning and request meetings with Calidus and EDGE.",
+    "owner": "Commercial Strategy",
+    "due": "2026-11-20",
+    "status": "open",
+    "opened": null,
+    "closed": null,
+    "note": "",
+    "items": [
+      "20261009-edge-signs-morocco-contract-to-integrate-precision"
+    ]
+  },
+  {
+    "id": "dec-edge-hanwha-dialogue",
+    "topic": "EDGE-Hanwha air defense",
+    "what": "Open dialogue with EDGE business development on where in-country support and training would sit.",
+    "owner": "Commercial Strategy",
+    "due": "2026-11-20",
+    "status": "open",
+    "opened": null,
+    "closed": null,
+    "note": "",
+    "items": [
+      "20260916-edge-and-hanwha-sign-term-sheet-for-integrated-air"
+    ]
+  }
+]

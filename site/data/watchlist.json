@@ -1,57 +1,97 @@
 [
-    {
-        "name":  "AAR",
-        "note":  "US MRO group; acquiring MRO Holdings",
-        "type":  "Competitor"
-    },
-    {
-        "name":  "AMMROC",
-        "note":  "UAE military MRO centre; Embraer C-390 MoU partner",
-        "type":  "Peer and partner"
-    },
-    {
-        "name":  "Boeing",
-        "note":  "F-15, KC-46, MQ-25",
-        "type":  "OEM"
-    },
-    {
-        "name":  "Calidus",
-        "note":  "UAE aerospace firm; MQ-9B and Gambit co-production MOU",
-        "type":  "Partner"
-    },
-    {
-        "name":  "EDGE",
-        "note":  "UAE defense group; drones, air defense JV, munitions",
-        "type":  "Customer and partner"
-    },
-    {
-        "name":  "Embraer",
-        "note":  "C-390 sustainment and training MoU with GAL",
-        "type":  "OEM partner"
-    },
-    {
-        "name":  "GE Aerospace",
-        "note":  "Engine sustainment",
-        "type":  "OEM"
-    },
-    {
-        "name":  "General Atomics",
-        "note":  "MQ-9B and Gambit",
-        "type":  "OEM"
-    },
-    {
-        "name":  "Hanwha",
-        "note":  "EDGE air defense JV",
-        "type":  "OEM and partner"
-    },
-    {
-        "name":  "Lockheed Martin",
-        "note":  "Sikorsky, F-16 and F-35 programmes; UAE industrial agreements",
-        "type":  "OEM"
-    },
-    {
-        "name":  "Serco",
-        "note":  "Government services; subject of GAL partner strategy work",
-        "type":  "Competitor and potential partner"
-    }
+  {
+    "name": "AAR",
+    "type": "Competitor",
+    "note": "US MRO group; acquiring MRO Holdings"
+  },
+  {
+    "name": "AMMROC",
+    "type": "Peer and partner",
+    "note": "UAE military MRO centre; Embraer C-390 MoU partner"
+  },
+  {
+    "name": "Boeing",
+    "type": "OEM",
+    "note": "F-15, KC-46, MQ-25"
+  },
+  {
+    "name": "Calidus",
+    "type": "Partner",
+    "note": "UAE aerospace firm; MQ-9B and Gambit co-production MOU"
+  },
+  {
+    "name": "EDGE",
+    "type": "Customer and partner",
+    "note": "UAE defense group; drones, air defense JV, munitions"
+  },
+  {
+    "name": "Embraer",
+    "type": "OEM partner",
+    "note": "C-390 sustainment and training MoU with GAL"
+  },
+  {
+    "name": "GE Aerospace",
+    "type": "OEM",
+    "note": "Engine sustainment"
+  },
+  {
+    "name": "General Atomics",
+    "type": "OEM",
+    "note": "MQ-9B and Gambit"
+  },
+  {
+    "name": "Hanwha",
+    "type": "OEM and partner",
+    "note": "EDGE air defense JV"
+  },
+  {
+    "name": "Lockheed Martin",
+    "type": "OEM",
+    "note": "Sikorsky, F-16 and F-35 programmes; UAE industrial agreements"
+  },
+  {
+    "name": "Serco",
+    "type": "Competitor and potential partner",
+    "note": "Government services; subject of GAL partner strategy work"
+  },
+  {
+    "name": "Tawazun Council",
+    "type": "Customer / buyer",
+    "note": "Proposed: UAE defence procurement authority; contract awards and offsets"
+  },
+  {
+    "name": "Generation 5 Holding",
+    "type": "Competitor and potential partner",
+    "note": "Proposed: Embraer exclusive UAE partner for C-390 MRO, support and training"
+  },
+  {
+    "name": "Airbus",
+    "type": "OEM",
+    "note": "Proposed: A330 MRTT, A400M and H225 support in the Gulf"
+  },
+  {
+    "name": "Leonardo",
+    "type": "OEM",
+    "note": "Proposed: helicopter and aerostructures support"
+  },
+  {
+    "name": "Babcock International",
+    "type": "Competitor",
+    "note": "Proposed: military support, training and aerial emergency services"
+  },
+  {
+    "name": "Amentum",
+    "type": "Competitor",
+    "note": "Proposed: government aviation support and firefighting aircraft services"
+  },
+  {
+    "name": "KBR",
+    "type": "Competitor",
+    "note": "Proposed: government services and sustainment"
+  },
+  {
+    "name": "CAE",
+    "type": "Competitor and potential partner",
+    "note": "Proposed: military training and simulation"
+  }
 ]

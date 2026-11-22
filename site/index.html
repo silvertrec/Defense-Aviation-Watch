@@ -7,10 +7,6 @@
 <meta name="description" content="Daily news digest and strategic advisor for defense aviation.">
 <meta name="theme-color" content="#242C54">
 <meta name="robots" content="noindex,nofollow">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="Aviation Watch">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="assets/icon-180.png">
@@ -27,13 +23,32 @@
     <img class="plane" src="assets/plane.webp" alt="" aria-hidden="true">
   </div>
 </div></header>
+
 <div class="shell"><div class="wrap">
+
+<div class="tools" role="toolbar" aria-label="Share and export">
+  <button type="button" class="btn" id="bPrint">Print or save brief as PDF</button>
+  <button type="button" class="btn" id="bCopy">Copy brief as text</button>
+  <button type="button" class="btn" id="bCsv">Export feed (CSV)</button>
+  <span class="tools-msg" id="toolMsg" role="status" aria-live="polite"></span>
+</div>
+
+<section class="panel bluf" aria-labelledby="hbl">
+  <div class="phead"><h2 id="hbl"><i class="lamp"></i>Bottom line</h2><span class="lbl num" id="bstamp"></span></div>
+  <div class="pbody" id="bluf"><div class="empty" style="border:0">Loading…</div></div>
+</section>
 
 <div class="sit" id="sit" aria-label="Situation counts"></div>
 
-<section class="panel" aria-labelledby="hb">
-  <div class="phead"><h2 id="hb"><i class="lamp"></i>Leadership brief</h2><span class="lbl num" id="bstamp"></span></div>
-  <div class="pbody" id="brief"><div class="empty" style="border:0">Loading…</div></div>
+<section class="panel" aria-labelledby="hd">
+  <div class="phead"><h2 id="hd"><i class="lamp"></i>Decision register</h2>
+    <span class="lbl"><button type="button" class="linkbtn" id="decToggle" aria-pressed="false">Show closed</button></span></div>
+  <div class="pbody" id="dec"><div class="muted">No decisions recorded.</div></div>
+</section>
+
+<section class="panel" aria-labelledby="hp">
+  <div class="phead"><h2 id="hp"><i class="lamp"></i>Strategic priorities</h2></div>
+  <div class="pbody" id="prio"></div>
 </section>
 
 <div class="two">
@@ -47,28 +62,60 @@
     </div>
   </section>
   <section class="panel" aria-labelledby="he">
-    <div class="phead"><h2 id="he"><i class="lamp"></i>Upcoming events</h2></div>
+    <div class="phead"><h2 id="he"><i class="lamp"></i>Upcoming events</h2><span class="lbl"><button type="button" class="linkbtn" id="icsAll">Add all to calendar (.ics)</button></span></div>
     <div class="pbody ev" id="ev"><div class="muted">No dated events yet.</div></div>
   </section>
 </div>
 
+<div class="two">
+  <section class="panel" aria-labelledby="hc">
+    <div class="phead"><h2 id="hc"><i class="lamp"></i>Competitor and partner watch</h2><span class="lbl">Select a company to filter the feed</span></div>
+    <div class="pbody"><div class="co" id="co"></div></div>
+  </section>
+  <section class="panel" aria-labelledby="ht">
+    <div class="phead"><h2 id="ht"><i class="lamp"></i>Signal volume by week</h2></div>
+    <div class="pbody"><div class="trend" id="trend"></div>
+      <div class="legend"><span><i class="k hi"></i>High</span><span><i class="k med"></i>Medium</span><span><i class="k watch"></i>Watch</span></div>
+      <p class="muted small" id="trendNote"></p>
+    </div>
+  </section>
+</div>
+
+<section class="panel" aria-labelledby="hq">
+  <div class="phead"><h2 id="hq"><i class="lamp"></i>Evidence and coverage</h2><span class="lbl">How far to trust this feed</span></div>
+  <div class="pbody" id="qual"></div>
+</section>
+
 <div class="bar" role="toolbar" aria-label="Filters">
+  <div class="grp grp-q"><label class="lbl" for="fq">Search</label><input id="fq" type="search" placeholder="Company, programme, keyword" autocomplete="off"></div>
   <div class="grp" id="fpri"><span class="lbl">Priority</span></div>
   <div class="grp" id="fscope"><span class="lbl">Scope</span></div>
-  <div class="grp"><span class="lbl">Service line</span><select id="fline" aria-label="Service line"><option value="">All</option></select></div>
-  <div class="grp"><span class="lbl">Company</span><select id="fco" aria-label="Company"><option value="">All</option></select></div>
-  <span class="count" id="count"></span>
+  <div class="grp sel">
+    <div class="fld"><label class="lbl" for="fline">Service line</label><select id="fline"><option value="">All</option></select></div>
+    <div class="fld"><label class="lbl" for="fco">Company</label><select id="fco"><option value="">All</option></select></div>
+    <div class="fld"><label class="lbl" for="ftype">Signal</label><select id="ftype"><option value="">All</option></select></div>
+    <div class="fld"><label class="lbl" for="fev">Evidence</label><select id="fev"><option value="">All</option></select></div>
+    <div class="fld"><label class="lbl" for="fsort">Sort</label><select id="fsort"><option value="date">Newest first</option><option value="pri">Priority, then newest</option></select></div>
+  </div>
+  <div class="grp opt">
+    <label class="chk"><input type="checkbox" id="fnew"> New since your last visit</label>
+    <label class="chk"><input type="checkbox" id="farch"> Include archived watch items</label>
+    <button type="button" class="linkbtn" id="freset">Reset filters</button>
+  </div>
+  <span class="count" id="count" role="status" aria-live="polite"></span>
 </div>
 <details class="rubric"><summary>How items are rated</summary>
   <dl>
     <dt>High</dt><dd>Names GAL, or directly affects one of GAL's eight service lines with an identifiable counterparty and a decision window under 60 days.</dd>
     <dt>Medium</dt><dd>Relevant to a service line or to a watchlist company. Action window of 60 to 180 days, or the impact is indirect.</dd>
-    <dt>Watch</dt><dd>Context or early signal. No action needed now.</dd>
+    <dt>Watch</dt><dd>Context or early signal. No action needed now. Watch items older than 90 days are archived from the default view.</dd>
+    <dt>Evidence</dt><dd>Primary: an official or company primary document was read. Corroborated: two or more independent credible outlets agree. Single source: one outlet, a snippet or a headline only. Confirm before external use.</dd>
     <dt>Confidence</dt><dd>Certain: confirmed in a primary or official source. Likely: strong inference or a single credible source. Guessing: analyst judgement.</dd>
-    <dt>Check sources</dt><dd>Outlets report different facts or figures. Confirm before external use.</dd>
+    <dt>Check sources</dt><dd>Outlets report different facts or figures.</dd>
   </dl>
 </details>
 <div class="feed" id="feed"><div class="empty">Loading…</div></div>
+<p class="foot muted small">Public-source intelligence compiled by an AI agent. Verify before external use.</p>
 </div></div>
 <script src="app.js"></script>
 </body>

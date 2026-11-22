@@ -1,35 +1,38 @@
 # Defense Aviation Watch
 
-Standalone, mobile-friendly copy of the Claude artifact. No server needed.
+Daily market-intelligence dashboard for GAL commercial strategy. Answer first: bottom line, decisions, priorities, then evidence.
 
-- `site/` is the app: static HTML/CSS/JS, installable as a phone app (PWA), works offline from cache.
-- `site/data/*.json` is the database (`items.json`, `brief.json`, `watchlist.json`), seeded with the 46 items and the latest brief from the artifact.
-- `agent/refresh.mjs` is the daily agent: Claude API + web search, merges new items, rewrites the brief.
-- `.github/workflows/refresh.yml` runs the agent at 06:59 Gulf time, Mon to Fri, and commits the data. The host redeploys on each commit.
+## How it fits together
 
-## Deploy (about 10 minutes)
+| Piece | What it does |
+|---|---|
+| `site/` | The dashboard. Static HTML, CSS and JS that reads `site/data/*.json`. Hosted on Cloudflare (Workers static assets, see `wrangler.jsonc`) and redeployed on every push to `main`. |
+| `agent/AGENT.md` | The analyst's operating manual: passes, rating rubric, schemas, writing standards. **The only place agent behaviour is defined.** |
+| Claude Code routine | Runs each weekday at 06:59 Gulf time (02:59 UTC), follows `agent/AGENT.md`, commits to `main`. Runs on the Claude plan, no API key. |
+| `tools/validate.mjs` | Data validator. Run by the routine before it pushes, and by GitHub on every push (`.github/workflows/validate.yml`). |
 
-1. Create a **private** GitHub repo and push this folder.
-2. Repo > Settings > Secrets and variables > Actions: add secret `ANTHROPIC_API_KEY`. Optional variable `AGENT_MODEL` (default `claude-sonnet-5-5`).
-3. Host `site/` (publish directory `site`, no build command). Any of:
-   - **Cloudflare Pages** (recommended): connect the repo, output dir `site`. Add **Cloudflare Access** (free to 50 users) so only your team can open it.
-   - **Netlify**: connect the repo; `netlify.toml` is included. Add password protection or SSO in site settings (paid plan).
-   - **Azure Static Web Apps / Vercel**: same idea, output dir `site`.
-4. Actions tab > "Refresh Defense Aviation Watch" > Run workflow, to test the agent once.
-5. On a phone: open the URL, then Share > Add to Home Screen.
+## Data files (`site/data/`)
 
-**Keep it access-controlled.** The data names GAL, suggested actions and decisions. A public static URL is readable by anyone who finds it (`noindex` is set, but that is not security).
+- `items.json`: signals. Each has a signal type, an evidence tier (Primary, Corroborated, Single source), priority, so-what and action.
+- `decisions.json`: the decision register. **People close decisions; the agent never does.** To close one, edit the file on GitHub: set `status` to `done` (or `dropped`), add today's date to `closed`, and add a `note`.
+- `brief.json`: bottom line, summary, what changed, standing priorities, watch list.
+- `watchlist.json`: companies searched every run. Entries starting "Proposed:" are on trial and show a Trial tag.
+- `runs.json`: one line per run (items added, sources checked, blocked domains). Feeds the Evidence and coverage panel.
 
-## Run locally
+## Dashboard features
 
-```bash
-npx serve site                         # view the app
-ANTHROPIC_API_KEY=sk-... node agent/refresh.mjs --dry   # preview a refresh, writes nothing
-```
+Bottom line first; decision register with overdue flags; priorities with a "trigger to watch"; activity by service line; upcoming events with calendar export (.ics); competitor and partner watch; weekly signal volume; evidence and coverage panel; full-text search; filters by priority, scope, service line, company, signal type and evidence; "new since your last visit"; archive of old watch items; shareable filtered links (the filter state is in the URL); CSV export; copy-as-text brief; print or save the brief as PDF (prints high and medium signals only).
+
+## Everyday tasks
+
+- **Change what the agent does:** edit `agent/AGENT.md` on GitHub and commit. The next run follows it.
+- **Add or remove a watched company:** edit `site/data/watchlist.json`.
+- **Close a decision:** see `decisions.json` above.
+- **Check data locally:** `node tools/validate.mjs` (needs Node 18+).
+- **Run the routine now:** open the routine at https://claude.ai/code/routines and choose Run now.
 
 ## Notes
 
-- The original scheduled agent's exact instructions were not available to copy. `agent/refresh.mjs` rebuilds them from the artifact's rubric, service lines, scopes and watchlist. Compare its first few runs with the Claude version and tune `SYSTEM` in that file.
-- Edit `site/data/watchlist.json` to change which companies are searched.
-- The "Data link" lamp turns amber if the last refresh is over 3 hours late and red after 27 hours.
-- Each run costs a handful of web searches plus one long model call. Cap it with `max_uses` in `refresh.mjs`.
+- Evidence labels and signal types on the 49 items that existed before the upgrade were assigned by keyword rules, then hand-corrected where wrong. They are reasonable but not re-verified. Items added after the upgrade are labelled by the agent from the sources it read.
+- The routine can only read sites its cloud environment allows. If `runs.json` shows blocked domains, add them in the routine environment's network settings.
+- Public-source intelligence compiled by an AI agent. Verify before external use.
