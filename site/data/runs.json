@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-11-23",
+    "items_added": 0,
+    "items_evaluated": 12,
+    "queries": 49,
+    "primary_documents_read": 0,
+    "primary_sources_checked": [
+      "DSCA major arms sales",
+      "DoD contract announcements",
+      "EDGE news",
+      "Tawazun Council",
+      "UK MoD / gov.uk",
+      "WAM",
+      "SEC EDGAR (AAR)",
+      "GE Aerospace press page",
+      "GA-ASI press page",
+      "Airbus newsroom"
+    ],
+    "blocked_domains": [
+      "www.dsca.mil",
+      "www.war.gov",
+      "www.edgegroup.ae",
+      "www.tawazun.ae",
+      "www.gov.uk",
+      "www.wam.ae",
+      "www.sec.gov",
+      "www.geaerospace.com",
+      "www.ga.com",
+      "www.airbus.com"
+    ],
+    "note": "49 searches and fetches covering all 8 service lines (2+ each), 4 scopes and all 19 watchlist names. Every primary-source fetch failed with ENOTFOUND, so 0 primary documents were read (below the minimum of 3 because of network limits). No new item met the evidence bar or the so-what test; results were older or already on file. Proposed names (Tawazun, Generation 5, Airbus, Leonardo, Babcock, Amentum, KBR, CAE) produced no new signal for GAL. Decision notes already state overdue status, so none were edited."
+  },
+  {
     "date": "2026-11-22",
     "items_added": 0,
     "items_evaluated": 14,
