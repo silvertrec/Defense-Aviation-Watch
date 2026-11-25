@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-11-25",
+    "items_added": 1,
+    "items_evaluated": 14,
+    "queries": 32,
+    "primary_documents_read": 0,
+    "primary_sources_checked": [
+      "DSCA major arms sales",
+      "DoD contract announcements",
+      "EDGE news",
+      "WAM",
+      "UK MoD / gov.uk",
+      "SEC EDGAR (AAR)"
+    ],
+    "blocked_domains": [
+      "www.dsca.mil",
+      "www.war.gov",
+      "www.edgegroup.ae",
+      "www.wam.ae",
+      "www.gov.uk",
+      "www.sec.gov"
+    ],
+    "note": "32 searches and fetches covering all 8 service lines, 4 scopes and the main watchlist names (Embraer, Generation 5, EDGE, Hanwha, Lockheed, Airbus, Leonardo, GE, Boeing, CAE, GAL, Tawazun, AAR, Serco, Babcock, Amentum, KBR, General Atomics, Calidus); Boeing, Airbus, Leonardo, Hanwha and CAE produced nothing new for the window. Six primary hosts failed with ENOTFOUND, so 0 primary documents were read (below the minimum of 3 because of network limits). One watch-rated event added (IDEX and NAVDEX 2027). Decision notes already state overdue status, so none were edited."
+  },
+  {
     "date": "2026-11-24",
     "items_added": 0,
     "items_evaluated": 10,

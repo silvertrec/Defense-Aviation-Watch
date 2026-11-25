@@ -19,6 +19,31 @@
     "basis": "Calendar item; dates to be confirmed."
   },
   {
+    "id": "20270121-idex-navdex-2027-abu-dhabi-dates",
+    "date": "2027-01-21",
+    "headline": "IDEX and NAVDEX 2027 reported for 21-25 January 2027 at ADNEC, Abu Dhabi, with 70% of exhibitors already committed",
+    "priority": "watch",
+    "scope": "UAE / GCC",
+    "signal_type": "Event",
+    "lines": [
+      "Military MRO",
+      "Drones / UAS",
+      "Engineering, training and simulation"
+    ],
+    "companies": [
+      "EDGE",
+      "Tawazun Council"
+    ],
+    "confidence": "Likely",
+    "evidence": "Single source",
+    "source": "ADNEC Group press release headline and search snippet, seen 25 Nov 2026; page not opened (host outside session network). Exact dates and exhibitor share not verified against the organiser.",
+    "url": "https://www.adnecgroup.ae/news-media/news/details/dates-for-idex-and-navdex-2027-confirmed-with-70-of-exhibitors-committing-to-the-next-edition",
+    "why": "IDEX is the main UAE venue where Tawazun and EDGE sign sustainment and partnership deals, relevant to Military MRO, UAS and training lines, and it falls before the February MRO Middle East and AIME show.",
+    "action": "Commercial Strategy to confirm dates with ADNEC and book Embraer, Calidus and EDGE meetings by mid-December 2026.",
+    "basis": "Event with a date known but a single unopened source; no decision window yet.",
+    "added": "2026-11-25"
+  },
+  {
     "id": "20261109-icmm-abudhabi-edge",
     "date": "2026-11-09",
     "headline": "46th World Congress of Military Medicine (ICMM) in Abu Dhabi, 9-13 Nov; UAE MoD names EDGE a strategic partner",
