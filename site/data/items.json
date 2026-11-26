@@ -44,6 +44,29 @@
     "added": "2026-11-25"
   },
   {
+    "id": "20261117-v2x-bahrain-isa-air-base-base-operations-support",
+    "date": "2026-11-17",
+    "headline": "V2X reportedly receives US Navy modification to keep base operations support at Isa Air Base, Bahrain, through November 2027",
+    "priority": "watch",
+    "scope": "Competitors / M&A",
+    "signal_type": "Contract / award",
+    "lines": [
+      "Facility management"
+    ],
+    "companies": [
+      "V2X"
+    ],
+    "confidence": "Likely",
+    "evidence": "Single source",
+    "source": "TheDefenseWatch page last updated 17 Nov 2026, cited by search summaries; one summary gives a 18 Nov DoD notice date. Reported cumulative value of about $219.1M conflicts with NAVFAC and HigherGov records ($238.8M after the Dec 2025 option). NAVFAC, DoD and SAM.gov were unreachable, so the modification, date and value are unverified.",
+    "url": "https://thedefensewatch.com/?p=37126",
+    "why": "Facility management: shows a US-listed competitor holding a Gulf base operations contract through 2027, so the US Navy Bahrain work is not open to GAL before then. No UAE demand is created.",
+    "action": "No action now.",
+    "basis": "Context on a competitor in a non-UAE Gulf market; single source with conflicting figures.",
+    "added": "2026-11-26",
+    "disputed": true
+  },
+  {
     "id": "20261109-icmm-abudhabi-edge",
     "date": "2026-11-09",
     "headline": "46th World Congress of Military Medicine (ICMM) in Abu Dhabi, 9-13 Nov; UAE MoD names EDGE a strategic partner",
