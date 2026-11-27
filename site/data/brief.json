@@ -22,8 +22,8 @@
       "why": "The 15 September term sheet covers L-SAM, M-SAM and Chunmoo with phased localisation. A joint venture is only to be pursued, subject to government approvals, and the reports do not mention sustainment or training. Support demand is probable but not yet defined, and the timing depends on a definitive agreement."
     }
   ],
-  "refreshed": "2026-11-26T08:30:00+04:00",
-  "summary": "No new UAE or GCC sustainment, MRO, manpower, training, UAS, tanker, SAR or firefighting development naming GAL or a watchlist company was verified for 19 to 26 November. About 34 searches and fetches across all service lines, scopes and watchlist names returned material already on file or older (for example AAR's MRO Holdings deal, not yet closed, and the Hanwha-EDGE term sheet of 15 September). One watch item was added: a single-source report of a V2X base operations extension at Isa Air Base, Bahrain. Every primary-source fetch failed because the hosts are outside the session's allowed network, so no primary document was read and all findings rest on search snippets.",
+  "refreshed": "2026-11-27T08:30:00+04:00",
+  "summary": "No new UAE or GCC sustainment, MRO, manpower, training, UAS, tanker, SAR or firefighting development naming GAL or a watchlist company was verified for 20 to 27 November. About 36 searches and fetches across all service lines, scopes and watchlist names returned material already on file or older, including AAR's pending MRO Holdings deal (expected to close in 2027 per its 10-Q, as seen in search results) and the Hanwha-EDGE term sheet of September. One watch item was added: a single-source report of a possible $4.5 billion US sale of KC-46A tankers to Qatar from August. Every primary-source fetch failed because the hosts are outside the session's allowed network, so no primary document was read and all findings rest on search snippets.",
   "watch": [
     "Embraer response on the GAL MoU versus the Generation 5 Holding role; any AMMROC announcement",
     "Definitive EDGE-Hanwha agreement and whether a JV is formed; sustainment and training scope",
@@ -31,12 +31,13 @@
     "Kuwait F/A-18 training support (Boeing, FMS, 29 Oct): confirm against the DoD contract notice; whether similar in-country training scopes are offered to other Gulf users",
     "MRO Middle East and AIME (2-3 Feb 2027) and the UAE events calendar: confirm dates and plan partner meetings",
     "IDEX and NAVDEX 2027 (21-25 Jan, Abu Dhabi, single source) and Dubai Airshow 2027 (listed 15-19 Nov 2027): confirm with organisers",
-    "Bahrain International Airshow reported postponed to Nov 2028 (single source): confirm with organiser and check where Gulf meetings move"
+    "Bahrain International Airshow reported postponed to Nov 2028 (single source): confirm with organiser and check where Gulf meetings move",
+    "Qatar KC-46A sale (single source): confirm against the DSCA notice and whether Qatar sustainment and training scopes go to local partners"
   ],
   "headline": "Nothing new changes GAL's position this week. Three decisions remain overdue; the one action is for Commercial Strategy to settle the Embraer C-390 position.",
   "changes": [
-    "One watch item added: V2X base operations support at Isa Air Base, Bahrain (single source, figures disputed).",
+    "One watch item added: possible US sale of four KC-46A tankers to Qatar (single source, older than the window).",
     "Decisions for Embraer C-390 (due 13 Nov), UAS and EDGE-Hanwha (due 20 Nov) remain overdue and need owner updates.",
-    "Primary-source access still blocked; DoD notices, WAM, EDGE and SEC unverified for a sixth run."
+    "Primary-source access still blocked; DoD notices, WAM, EDGE and SEC unverified for a seventh run."
   ]
 }

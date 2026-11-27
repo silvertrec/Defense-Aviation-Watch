@@ -1021,6 +1021,28 @@
     "basis": "Calendar change only, no counterparty or GAL service-line decision."
   },
   {
+    "id": "20260820-us-clears-possible-4-5b-kc-46a-sale-to-qatar",
+    "date": "2026-08-20",
+    "headline": "US State Department clears possible $4.5 billion sale of up to four Boeing KC-46A tankers to Qatar (reported 20 August 2026)",
+    "priority": "watch",
+    "scope": "UAE / GCC",
+    "signal_type": "Policy / government",
+    "lines": [
+      "Aerial refueling"
+    ],
+    "companies": [
+      "Boeing"
+    ],
+    "confidence": "Likely",
+    "evidence": "Single source",
+    "source": "Search-result snippets from Army Recognition, Defence Blog, Air Data News and others, seen 27 Nov 2026. The DSCA notice itself was not opened (host blocked). Price, configuration, sustainment and training scope not verified. A notification is not a contract.",
+    "url": "https://www.armyrecognition.com/news/aerospace-news/2026/us-approves-4-5-billion-kc-46a-tanker-sale-to-qatar",
+    "why": "Aerial refueling: a Gulf neighbour adding a KC-46A fleet would create in-country sustainment and aircrew and maintainer training demand, and shows Qatar choosing Boeing over the Airbus A330 MRTT that the UAE operates.",
+    "action": "No action now.",
+    "basis": "Early signal for a neighbouring market; no GAL counterparty, no contract, and nothing verified from the primary notice.",
+    "added": "2026-11-27"
+  },
+  {
     "id": "20251117-embraer-c-390-uae-orders-10-options-for-10-more-emb",
     "date": "2025-11-17",
     "headline": "Embraer C-390: UAE orders 10 (options for 10 more); Embraer names Generation 5 Holding exclusive UAE MRO and training partner, alongside its Nov 2025 MoUs with AMMROC and GAL",
